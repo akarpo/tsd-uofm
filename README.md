@@ -7,6 +7,18 @@ state appropriation and the U-M endowment.
 
 Live: <https://tsd-uofm.karpowitsch.org>
 
+## Documentation
+
+| File | What's in it |
+|---|---|
+| [`METHODOLOGY.md`](METHODOLOGY.md) | How every figure is derived, how the parse validates itself, the counterfactual, and the known gaps |
+| [`DATA_SOURCES.md`](DATA_SOURCES.md) | Every source with its URL pattern, access quirks and traps |
+| [`SCRIPTS.md`](SCRIPTS.md) | The eight-script pipeline, run order, and the curl loops that fetch the bulk inputs |
+| [`DESIGN.md`](DESIGN.md) | The two-palette colour system and why brand colours are not chart colours; the illustrations; motion and accessibility |
+| [`DEPLOYMENT.md`](DEPLOYMENT.md) | GitHub → Cloudflare Pages → DNS, with the token-scope and DNS-caching traps |
+| [`PROMPT_HISTORY.md`](PROMPT_HISTORY.md) | Every request that shaped the project, and the ten corrections made along the way |
+| [`CHANGELOG.md`](CHANGELOG.md) | Version history and open items |
+
 ---
 
 ## The finding
