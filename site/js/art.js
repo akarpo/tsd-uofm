@@ -84,15 +84,15 @@
     const inner = `
       <text x="${W / 2}" y="${H - 6}" text-anchor="middle" fill="#6f8aa8" font-size="12.5"
             letter-spacing="3" font-family="${FONT}">ENTERING CLASS OF ${rec.year}</text>
-      ${panel(178, 'TROY HIGH SCHOOL', 'Colts · silver &amp; black',
+      ${panel(178, 'TROY HIGH', 'Colts · silver &amp; black',
               { applied: t.applied, admitted: t.admitted, rate: t.rate },
               { a: SCHOOL.troy.silver, b: SCHOOL.troy.silver, c: SCHOOL.troy.black }, '#3987e5')}
       <line x1="${W / 2}" y1="62" x2="${W / 2}" y2="${H - 34}" stroke="rgba(169,189,212,0.18)"/>
-      ${panel(542, 'ATHENS HIGH SCHOOL', 'Red Hawks · red &amp; gold',
+      ${panel(542, 'ATHENS', 'Red Hawks · red &amp; gold',
               { applied: a.applied, admitted: a.admitted, rate: a.rate },
               { a: SCHOOL.athens.red, b: SCHOOL.athens.gold, c: SCHOOL.athens.black }, '#d95926')}
     `;
-    return svg(`0 0 ${W} ${H}`, inner, 'role="img" aria-label="Troy High and Athens High applications and admissions in ' + rec.year + '"');
+    return svg(`0 0 ${W} ${H}`, inner, 'role="img" aria-label="Troy High and Athens applications and admissions in ' + rec.year + '"');
   }
 
   /* ============================================= LSA — Angell Hall / Diag = */

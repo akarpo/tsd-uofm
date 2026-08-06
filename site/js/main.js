@@ -41,7 +41,7 @@
 
     /* ───────────────────────────────────────────────── headline stats ─── */
     $('#headline-stats').innerHTML =
-      statTile('+103%', 'More applications from Troy &amp; Athens', '199 → 404 per year') +
+      statTile('+103%', 'More applications from Troy High &amp; Athens', '199 → 404 per year') +
       statTile('+9%', 'More admits', '143 → 156 per year', 'flat') +
       statTile('−46%', 'Worse odds of admission', '71.9% → 38.6%', 'down') +
       statTile('1,208', 'Admits lost against 2004 odds', 'cumulative, 2005–2025', 'down');
@@ -72,7 +72,7 @@
       ],
       tipTitle: y => 'Class of ' + y,
       table: {
-        head: ['Year', 'Troy applied', 'Troy admitted', 'Troy rate', 'Athens applied', 'Athens admitted', 'Athens rate'],
+        head: ['Year', 'Troy High applied', 'Troy High admitted', 'Troy High rate', 'Athens applied', 'Athens admitted', 'Athens rate'],
         rows: S.map(r => [r.year, r.troy_applied, r.troy_admitted, F.pct(r.troy_rate),
                           r.athens_applied, r.athens_admitted, F.pct(r.athens_rate)])
       }
@@ -307,8 +307,8 @@
     // Tone is deliberately NOT "did the number rise" — it is "is this better or
     // worse for a Troy household". A rise in applications is neither.
     const LED = [
-      ['Applications from Troy &amp; Athens', F.int(first.tsd_applied), F.int(last.tsd_applied), 'n'],
-      ['Admits from Troy &amp; Athens', F.int(first.tsd_admitted), F.int(last.tsd_admitted), 'n'],
+      ['Applications from Troy High &amp; Athens', F.int(first.tsd_applied), F.int(last.tsd_applied), 'n'],
+      ['Admits from Troy High &amp; Athens', F.int(first.tsd_admitted), F.int(last.tsd_admitted), 'n'],
       ['Admit rate', F.pct(first.tsd_rate), F.pct(last.tsd_rate), 'bad'],
       ['U-M applications', F.int(first.um_applied), F.int(last.um_applied), 'n'],
       ['U-M admit rate', F.pct(first.um_rate), F.pct(last.um_rate), 'bad'],

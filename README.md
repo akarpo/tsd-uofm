@@ -2,7 +2,7 @@
 
 **Troy School District → University of Michigan, 2004–2025.**
 A scrollytelling site built on a FOIA release of U-M admissions data for Troy High
-School and Athens High School, set against Troy home values, tuition, Michigan's
+and Athens, set against Troy home values, tuition, Michigan's
 state appropriation and the U-M endowment.
 
 Live: <https://tsd-uofm.karpowitsch.org>
@@ -131,5 +131,4 @@ And 1,208 is a counterfactual, not a forecast.
 ---
 
 Built from public records. Not affiliated with, endorsed by, or speaking for the
-University of Michigan, Troy School District, Troy High School or Athens High
-School. All trademarks belong to their owners.
+University of Michigan, Troy School District, Troy High or Athens. All trademarks belong to their owners.

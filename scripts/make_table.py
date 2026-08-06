@@ -15,9 +15,9 @@ SHORT = {r["year"]: r for r in D["shortfall"]}
 
 COLS = [
     ("year",                     "Year",                    "{:d}",       None),
-    ("troy_applied",             "Troy applied",            "{:,.0f}",    None),
-    ("troy_admitted",            "Troy admitted",           "{:,.0f}",    None),
-    ("troy_rate",                "Troy rate",               "{:.1%}",     None),
+    ("troy_applied",             "Troy High applied",            "{:,.0f}",    None),
+    ("troy_admitted",            "Troy High admitted",           "{:,.0f}",    None),
+    ("troy_rate",                "Troy High rate",               "{:.1%}",     None),
     ("athens_applied",           "Athens applied",          "{:,.0f}",    None),
     ("athens_admitted",          "Athens admitted",         "{:,.0f}",    None),
     ("athens_rate",              "Athens rate",             "{:.1%}",     None),
