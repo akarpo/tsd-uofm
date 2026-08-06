@@ -379,3 +379,15 @@ footer { padding: 3rem 0 4rem; border-top: 1px solid var(--rule); color: var(--t
   margin-right: 2px; vertical-align: baseline;
   box-shadow: 0 0 0 1px rgba(244,247,251,0.3);
 }
+
+/* the word "Blue": an SVG cut-out filled with a shimmering blue field and
+   drifting campus objects. The visible glyphs are a clip path, so a
+   screen-reader copy of the word rides alongside inside the span. */
+.bluefx {
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 0;
+}
+.bluefx svg { display: block; overflow: visible; }
+/* lift the blue word off the navy field so it reads as a solid mass */
+.bluefx svg { filter: drop-shadow(0 0 26px rgba(77, 155, 240, 0.35)); }

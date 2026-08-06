@@ -259,5 +259,168 @@
     io.observe(canvas);
   }
 
-  global.Art = { schoolPanel, lsa, eng, ross, heroCanvas, dots, UM, SCHOOL };
+  /* ================================================ the word "Blue" ======= */
+  /* The word is cut out of a shimmering blue field, and campus objects --
+     dollar signs, footballs, mortarboards, columns, pennants, block Ms --
+     drift up through the letterforms. The visible text is an SVG clip path,
+     so a screen-reader copy of the word is kept alongside it in the DOM. */
+
+  const ICONS = [
+    // dollar sign
+    () => `<path d="M0,-9 v18 M-4.6,-4.6 a4.6,3.6 0 1 1 4.6,3.6 a4.6,3.6 0 1 0 4.6,3.6"
+             fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>`,
+    // football
+    () => `<g><ellipse rx="9.5" ry="5.6" fill="none" stroke="currentColor" stroke-width="1.9"/>
+             <line x1="-4.6" y1="0" x2="4.6" y2="0" stroke="currentColor" stroke-width="1.6"/>
+             ${[-2.6, 0, 2.6].map(x => `<line x1="${x}" y1="-1.9" x2="${x}" y2="1.9"
+                stroke="currentColor" stroke-width="1.4"/>`).join('')}</g>`,
+    // mortarboard
+    () => `<g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round">
+             <path d="M-10,-2.4 L0,-7 L10,-2.4 L0,2.2 Z"/>
+             <path d="M-5.6,-0.3 v5.2 a5.6,2.6 0 0 0 11.2,0 v-5.2"/>
+             <path d="M9,-1.6 v6.4"/></g>`,
+    // column (Angell Hall)
+    () => `<g fill="none" stroke="currentColor" stroke-width="1.8">
+             <rect x="-6.4" y="-8.6" width="12.8" height="2.6"/>
+             <rect x="-4.2" y="-6" width="8.4" height="12"/>
+             <rect x="-6.4" y="6" width="12.8" height="2.6"/>
+             <line x1="-1.4" y1="-4.4" x2="-1.4" y2="4.4"/>
+             <line x1="1.4" y1="-4.4" x2="1.4" y2="4.4"/></g>`,
+    // pennant
+    () => `<g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round">
+             <path d="M-8,-6 L9,0 L-8,6 Z"/><line x1="-8" y1="-7.6" x2="-8" y2="8.6"/></g>`,
+    // book
+    () => `<g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round">
+             <path d="M-8.4,-6.2 h6.6 a1.8,1.8 0 0 1 1.8,1.8 v10.6 a1.8,1.8 0 0 0 -1.8,-1.8 h-6.6 Z"/>
+             <path d="M8.4,-6.2 h-6.6 a1.8,1.8 0 0 0 -1.8,1.8 v10.6 a1.8,1.8 0 0 1 1.8,-1.8 h6.6 Z"/></g>`,
+    // block M
+    () => `<g transform="translate(-9,-6.6) scale(0.166)"><path
+             d="M395.82,310.76l-22-30.23v22h8.8v21.71H342V302.52h8.24V268.71H342V247H373.9l22,30.5L418,247H450v21.71h-8.24v33.81H450v21.71H409.28V302.52h8.79v-22Z"
+             transform="translate(-319.73 -224.78)" fill="currentColor"/></g>`,
+  ];
+
+  function blueWord(host) {
+    if (!host) return;
+    const h1 = host.closest('h1');
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let raf = null, floaters = [], t0 = 0;
+
+    function render() {
+      cancelAnimationFrame(raf);
+      raf = null;
+      const cs = getComputedStyle(h1);
+      const fs = parseFloat(cs.fontSize);
+      const FONT = cs.fontFamily;
+      const WEIGHT = cs.fontWeight;
+      // letter-spacing computes to px; h1 uses a negative em value
+      const LS = cs.letterSpacing === 'normal' ? 0 : parseFloat(cs.letterSpacing);
+
+      const uid = 'bw' + Math.round(fs * 100);
+      const textAttrs = `font-family="${FONT.replace(/"/g, '&quot;')}" font-weight="${WEIGHT}"` +
+                        ` font-size="${fs}" letter-spacing="${LS}"`;
+
+      // measure first, in a throwaway SVG, so the viewBox can hug the word
+      const probe = document.createElementNS(NS_SVG, 'svg');
+      probe.setAttribute('style', 'position:absolute;visibility:hidden;width:2000px;height:600px');
+      probe.innerHTML = `<text x="0" y="400" ${textAttrs}>Blue</text>`;
+      document.body.appendChild(probe);
+      const bb = probe.querySelector('text').getBBox();
+      probe.remove();
+
+      const PAD = fs * 0.06;
+      const W = bb.width + PAD * 2, H = bb.height + PAD * 2;
+      const vx = bb.x - PAD, vy = bb.y - PAD;
+
+      host.style.width = W + 'px';
+      host.style.height = H + 'px';
+
+      host.innerHTML =
+        `<span class="sr-only">Blue</span>` +
+        `<svg viewBox="${vx} ${vy} ${W} ${H}" width="${W}" height="${H}" aria-hidden="true">
+          <defs>
+            <clipPath id="${uid}-clip"><text x="0" y="400" ${textAttrs}>Blue</text></clipPath>
+            <linearGradient id="${uid}-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0"   stop-color="#8fc4ff"/>
+              <stop offset="0.45" stop-color="#4d9bf0"/>
+              <stop offset="1"   stop-color="#1f5fb0"/>
+            </linearGradient>
+            <linearGradient id="${uid}-sheen" x1="0" y1="0" x2="1" y2="0.35">
+              <stop offset="0"    stop-color="#ffffff" stop-opacity="0"/>
+              <stop offset="0.38" stop-color="#ffffff" stop-opacity="0.42"/>
+              <stop offset="0.47" stop-color="#ffcb05" stop-opacity="0.68"/>
+              <stop offset="0.53" stop-color="#ffffff" stop-opacity="0.85"/>
+              <stop offset="0.62" stop-color="#ffcb05" stop-opacity="0.50"/>
+              <stop offset="1"    stop-color="#ffffff" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g clip-path="url(#${uid}-clip)">
+            <rect x="${vx}" y="${vy}" width="${W}" height="${H}" fill="url(#${uid}-fill)"/>
+            <g class="bw-floaters"></g>
+            <rect class="bw-sheen" x="${vx}" y="${vy}" width="${(W * 0.55).toFixed(1)}"
+                  height="${H}" fill="url(#${uid}-sheen)"/>
+          </g>
+        </svg>`;
+
+      const gF = host.querySelector('.bw-floaters');
+      const sheen = host.querySelector('.bw-sheen');
+      // fewer, larger objects read better inside the counters than many small
+      // ones, which just look like noise at hero size
+      const n = Math.max(8, Math.round(W / (fs * 0.62)));
+      const scale = fs / 150;
+      // dollar signs and footballs lead the mix
+      const ORDER = [0, 1, 0, 6, 2, 1, 3, 0, 4, 1, 5, 2];
+      floaters = [];
+      let markup = '';
+      for (let i = 0; i < n; i++) {
+        // deterministic-ish spread; no Math.random dependence on reload order
+        const fx = vx + ((i * 137.5) % 100) / 100 * W;
+        const fy = vy + ((i * 71.3) % 100) / 100 * H;
+        const kind = ORDER[i % ORDER.length];
+        const sc = (0.8 + ((i * 29) % 45) / 100) * scale * 3.1;
+        const rot = ((i * 53) % 60) - 30;
+        const op = 0.46 + ((i * 17) % 32) / 100;
+        const col = i % 3 === 0 ? '#ffcb05' : '#eaf4ff';
+        markup += `<g class="bw-f" style="color:${col}" opacity="${op.toFixed(2)}"
+                      transform="translate(${fx.toFixed(1)},${fy.toFixed(1)}) rotate(${rot}) scale(${sc.toFixed(3)})"
+                   >${ICONS[kind]()}</g>`;
+        floaters.push({ x: fx, y: fy, sc, rot, spd: 7 + ((i * 13) % 20) });
+      }
+      gF.innerHTML = markup;
+      const nodes = [...gF.children];
+
+      if (reduce) return;   // static field: gradient + objects, no motion
+
+      t0 = performance.now();
+      const loop = now => {
+        const dt = (now - t0) / 1000;
+        nodes.forEach((el, i) => {
+          const f = floaters[i];
+          let y = f.y - ((dt * f.spd) % (H + 40));
+          if (y < vy - 20) y += H + 40;
+          const wob = Math.sin(dt * 0.9 + i) * fs * 0.012;
+          el.setAttribute('transform',
+            `translate(${(f.x + wob).toFixed(1)},${y.toFixed(1)}) rotate(${(f.rot + Math.sin(dt * 0.5 + i) * 8).toFixed(1)}) scale(${f.sc.toFixed(3)})`);
+        });
+        // sheen crosses left-to-right, then waits offscreen before the next pass
+        const cycle = (dt * 0.30) % 1;
+        const travel = Math.min(cycle / 0.55, 1);
+        sheen.setAttribute('x', (vx - W * 0.55 + travel * (W + W * 0.55)).toFixed(1));
+        raf = requestAnimationFrame(loop);
+      };
+      raf = requestAnimationFrame(loop);
+    }
+
+    render();
+    let rt;
+    addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(render, 180); });
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { if (!raf && !reduce) render(); }
+      else { cancelAnimationFrame(raf); raf = null; }
+    }), { threshold: 0.02 });
+    io.observe(host);
+  }
+
+  const NS_SVG = 'http://www.w3.org/2000/svg';
+
+  global.Art = { schoolPanel, lsa, eng, ross, heroCanvas, blueWord, dots, UM, SCHOOL };
 })(window);

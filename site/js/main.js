@@ -416,6 +416,7 @@
     $('#art-eng').innerHTML = Art.eng();
     $('#art-ross').innerHTML = Art.ross();
     Art.heroCanvas($('#hero-canvas'));
+    Art.blueWord($('#bluefx'));
 
     /* scrollytelling: swap the school panel as each step comes into view */
     const STEP_YEARS = [2004, 2010, 2016, 2025];
