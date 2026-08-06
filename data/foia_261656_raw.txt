@@ -1,0 +1,152 @@
+                                Applied   Admitted
+2004 Troy High School Total      131        94
+ ENG                              20        18
+ LSA                             105        74
+2004 Athens High School Total     68        49
+ ENG                              8          8
+ LSA                              57        40
+2005 Troy High School Total      154        116
+ ENG                              26        21
+ LSA                             109        86
+2005 Athens High School Total     90        67
+ ENG                              25        21
+ LSA                              58        42
+2006 Troy High School Total      161        97
+ ENG                              19        17
+ LSA                             135        79
+2006 Athens High School Total     95        58
+ ENG                              18        16
+ LSA                              69        39
+2007 Troy High School Total      190        129
+ ENG                              29        27
+ LSA                             145        97
+2007 Athens High School Total     96        60
+ ENG                              16        14
+ LSA                              70        44
+2008 Troy High School Total      161        95
+ ENG                              35        29
+ LSA                             124        65
+2008 Athens High School Total     87        53
+ ENG                              15        11
+ LSA                              65        39
+2009 Troy High School Total      201        137
+ ENG                              33        28
+ LSA                             153        105
+2009 Athens High School Total    103        71
+ ENG                              15        14
+ LSA                              79        55
+2010 Troy High School Total      183        142
+ ENG                              39        34
+ LSA                            130   103
+2010 Athens High School Total   99    71
+ ENG                            19    16
+ LSA                            69    49
+2011 Troy High School Total     164   93
+ ENG                            39    26
+ LSA                            111   58
+2011 Athens High School Total   95    61
+ ENG                            21    15
+ LSA                            62    39
+2012 Troy High School Total     159   87
+ ENG                            40    27
+ LSA                            110   58
+2012 Athens High School Total   77    49
+ ENG                            16    13
+ LSA                            52    28
+2013 Troy High School Total     169   107
+ ENG                            38    23
+ LSA                            125   81
+2013 Athens High School Total   76    44
+ ENG                            23    13
+ LSA                            47    27
+2014 Troy High School Total     167   86
+ ENG                            45    24
+ LSA                            108   56
+2014 Athens High School Total   64    31
+ ENG                            15     4
+ LSA                            45    25
+2015 Troy High School Total     215   110
+ ENG                            49    29
+ LSA                            150   76
+2015 Athens High School Total   88    55
+ ENG                            13     6
+ LSA                            67    46
+2016 Troy High School Total     213   103
+ ENG                            67    31
+ LSA                            131   66
+2016 Athens High School Total   78    31
+ ENG                            19     6
+ LSA                            55    25
+2017 Troy High School Total     202   117
+ ENG                            57    34
+ LSA                            119   64
+ ROSS                            4     4
+2017 Athens High School Total   97    58
+ ENG                            25    15
+ LSA                            60    38
+ ROSS                            1     1
+2018 Troy High School Total     206   101
+ ENG                            48    28
+ LSA                            111   60
+ ROSS                           33     9
+2018 Athens High School Total   79    38
+ ENG                            20    13
+ LSA                            45    21
+ ROSS                           10     4
+2019 Troy High School Total     205   103
+ ENG                            50    28
+ LSA                            120   59
+ ROSS                           25    10
+2019 Athens High School Total   89    31
+ ENG                            22     8
+ LSA                            48    16
+ ROSS                            9     4
+2020 Troy High School Total     221   112
+ ENG                            65    39
+ LSA                            111   53
+ ROSS                           24    11
+2020 Athens High School Total   88    41
+ ENG                            16     7
+ LSA                            58    28
+ ROSS                            8     3
+2021 Troy High School Total     251   116
+ ENG                            60    31
+ LSA                            154   67
+ ROSS                           22    11
+2021 Athens High School Total   102   40
+ ENG                            14     6
+ LSA                            68    23
+ ROSS                           11     8
+2022 Troy High School Total     262   105
+ ENG                            63    33
+ LSA                            151   59
+ ROSS                           30     7
+2022 Athens High School Total   113   37
+ ENG                            23     6
+ LSA                            65    24
+ ROSS                           11     5
+2023 Troy High School Total     280   124
+ ENG                            65    37
+ LSA                            174   76
+ ROSS                           21     6
+2023 Athens High School Total   107   35
+ ENG                            19     9
+ LSA                            66    21
+ ROSS                            6     1
+2024 Troy High School Total     272   98
+ ENG                            51    18
+ LSA                            172   62
+ ROSS                           29    11
+2024 Athens High School Total   111   35
+ ENG                            31    12
+ LSA                            54    16
+ ROSS                           11     2
+2025 Troy High School Total     292   118
+ ENG                            79    42
+ LSA                            172   62
+ ROSS                           20     7
+2025 Athens High School Total   112   38
+ ENG                            24     8
+ LSA                            65    24
+ ROSS                           11     3
+

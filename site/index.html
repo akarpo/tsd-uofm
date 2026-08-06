@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tangled up in Blue — Troy School District → University of Michigan, 2004–2025</title>
+<meta name="description" content="Twenty-two years of University of Michigan admissions from Troy High School and Athens High School, obtained by FOIA, set against Troy home values, tuition, state appropriations and the U-M endowment.">
+<meta name="theme-color" content="#00274C">
+<meta property="og:title" content="Tangled up in Blue">
+<meta property="og:description" content="Troy applications to Michigan doubled. Admits rose 9%. The odds fell by half. Here is what that cost.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2300274C'/><text y='74' x='50' font-size='72' font-family='Georgia,serif' font-weight='bold' text-anchor='middle' fill='%23FFCB05'>M</text></svg>">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════ HERO ══ -->
+<header class="hero">
+  <canvas class="fieldlines" id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <svg class="blockm" viewBox="0 0 120 100" aria-label="University of Michigan block M">
+      <path d="M2 4h35l23 55 23-55h35v92H92V36L66 94h-12L28 36v60H2z"/>
+    </svg>
+    <p class="kicker">FOIA 261656 · Twenty-two years of admissions</p>
+    <h1>Tangled up in<br><span class="blue">Blue</span></h1>
+    <p class="standfirst">
+      Troy School District sends more students to the University of Michigan than
+      almost any district in the state. Since 2004 its applications have doubled —
+      and its odds have been cut nearly in half. This is what changed, and what it cost.
+    </p>
+    <p class="scrollcue">Scroll<span>↓</span></p>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════════════════ THE HEADLINE ══ -->
+<section id="headline">
+  <div class="wrap">
+    <p class="act-label">The short answer</p>
+    <h2>Same seats. Twice the line.</h2>
+    <p class="lede">
+      In 2004, a Troy or Athens senior who applied to Michigan had better-than-even
+      odds — about seven in ten got in. In 2025, fewer than four in ten did. The
+      district did not send fewer students, or worse students. It sent twice as many,
+      with far stronger records, into a door that had narrowed faster than they improved.
+    </p>
+
+    <div class="stats" id="headline-stats"></div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Applications and admissions — Troy School District to U-M</h4>
+          <p class="sub">Troy High School and Athens High School combined, entering classes 2004–2025.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-headline"></div>
+      <figcaption>
+        Every bar is one year's applicants. The solid block is the ones who got in; the
+        faded block is the ones who did not. The solid block barely grows while the
+        faded one keeps climbing. Source: University of Michigan FOIA response #261656.
+      </figcaption>
+    </figure>
+
+    <p class="pull">
+      At 2004’s odds, Troy and Athens would have produced <strong>1,208 more Michigan
+      admits</strong> between 2005 and 2025 than they actually did.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ ACT I — TWO SCHOOLS ══ -->
+<section class="alt" id="schools">
+  <div class="wrap">
+    <p class="act-label">Act I · Two high schools</p>
+    <h2>Troy and Athens</h2>
+    <p class="lede">
+      Two public high schools, three miles apart, in the same district, with the same
+      counselors and the same course catalogue. They have not fared the same.
+    </p>
+  </div>
+
+  <div class="wrap scrolly" id="school-scrolly">
+    <div class="steps">
+      <div class="step" data-step="0">
+        <p class="stepnum">2004</p>
+        <h3>Seven in ten</h3>
+        <p>
+          Troy High sent 131 applications to Ann Arbor and got 94 admits — a 71.8%
+          rate. Athens sent 68 and got 49, at 72.1%. For a strong student in this
+          district, Michigan was less a reach than an expectation.
+        </p>
+      </div>
+      <div class="step" data-step="1">
+        <p class="stepnum">2010</p>
+        <h3>The high-water mark</h3>
+        <p>
+          Troy High's best year on record: 183 applications, <strong>142 admits</strong>,
+          a 77.6% rate. More Troy students were admitted to Michigan in 2010 than in
+          any year before or since — including years when twice as many applied.
+        </p>
+      </div>
+      <div class="step" data-step="2">
+        <p class="stepnum">2016</p>
+        <h3>The schools split</h3>
+        <p>
+          Athens drops to 39.7% while Troy High holds at 48.4%. From here on the two
+          schools diverge and never fully re-converge — Athens runs consistently
+          below its sibling, and the gap is widest in the years the university is
+          tightening fastest.
+        </p>
+      </div>
+      <div class="step" data-step="3">
+        <p class="stepnum">2025</p>
+        <h3>Four in ten, and three in ten</h3>
+        <p>
+          Troy High: 292 applications, 118 admits, 40.4%. Athens: 112 applications,
+          38 admits, 33.9%. Both schools now send more students than ever and get
+          back roughly what they got back twenty years ago.
+        </p>
+      </div>
+    </div>
+    <div class="sticky">
+      <div id="school-art" style="width:100%"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Admit rate by school</h4>
+          <p class="sub">Share of each school's U-M applicants who were admitted.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-schools"></div>
+      <figcaption>
+        Athens tracks below Troy High in most years, and the gap widens after 2016.
+        School colours, sampled from each school's own athletics mark, are
+        <span class="chip-i" style="background:#C20F2F"></span><span class="chip-i" style="background:#B4A169"></span>
+        <strong>Athens #C20F2F / #B4A169</strong> and
+        <span class="chip-i" style="background:#CFD0D2"></span><span class="chip-i" style="background:#000"></span>
+        <strong>Troy High #CFD0D2 / #000000</strong>. The chart itself uses the site's
+        validated data palette instead — silver is achromatic and cannot carry meaning
+        in a chart.
+      </figcaption>
+    </figure>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Applications sent, by school</h4>
+          <p class="sub">Troy High has grown its applicant pool far faster than Athens.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-apps"></div>
+      <figcaption>
+        Troy High more than doubled its applications (131 → 292). Athens grew far less
+        (68 → 112) — part of why its admit count fell while Troy's held.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ═════════════════════════════════════════════ ACT II — THE DOOR ══════ -->
+<section id="door">
+  <div class="wrap">
+    <p class="act-label">Act II · The door</p>
+    <h2>What happened in Ann Arbor</h2>
+    <p class="lede">
+      None of this is really about Troy. Between 2004 and 2025 the University of
+      Michigan went from 21,293 first-year applications to 109,112 — a five-fold
+      increase — while the size of the admitted class barely moved.
+    </p>
+
+    <div class="stats" id="door-stats"></div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>U-M first-year applications and admits</h4>
+          <p class="sub">The university admits about the same number of people it did twenty years ago.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-um-volume"></div>
+      <figcaption>
+        Admits (orange) are close to flat across two decades. Applications (blue)
+        went up five-fold. Source: U-M Common Data Sets, 1998–99 through 2025–26.
+      </figcaption>
+    </figure>
+
+    <h3>The bar moved too</h3>
+    <p>
+      It is not only that more people applied. The academic profile of the people who
+      got in rose sharply. A 30 ACT was above the 75th percentile of Michigan's entering
+      class in 2004; today it is below the 25th.
+    </p>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>ACT composite range of enrolled first-years</h4>
+          <p class="sub">25th and 75th percentiles. The whole band shifts up six points at the bottom.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-act"></div>
+      <figcaption>
+        The 2004 75th percentile (30) is the 2019 25th percentile. Test-optional years
+        (2021–2023) reflect only the students who chose to submit scores.
+      </figcaption>
+    </figure>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Share of enrolled first-years with a high-school GPA of 3.75 or above</h4>
+          <p class="sub">Reported in the Common Data Set; 2004–2006 not published.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-gpa"></div>
+      <figcaption>
+        From 64% to 93.9%. Nearly the entire entering class now arrives with an A average.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ ACT III — THREE CAMPUSES ══════ -->
+<section class="deep" id="campuses">
+  <div class="wrap">
+    <p class="act-label">Act III · Three campuses</p>
+    <h2>Not one door — three</h2>
+    <p class="lede">
+      "Getting into Michigan" is really three different admissions problems, on three
+      different pieces of ground. The FOIA data breaks Troy's applicants out by college,
+      and the three tell very different stories.
+    </p>
+    <p>
+      Colours below are the University of Michigan's official brand palette — the exact
+      values published by the university's Brand &amp; Visual Identity office.
+    </p>
+  </div>
+
+  <div class="wrap">
+    <!-- ─────────────────────────────── LSA ─────────────────────────────── -->
+    <article class="campus lsa">
+      <div class="art" id="art-lsa"></div>
+      <div class="body">
+        <p class="tag"><span class="chip" style="background:#2F65A7"></span>Central Campus · U-M Arboretum Blue #2F65A7</p>
+        <h3>The College of Literature, Science &amp; the Arts</h3>
+        <p>
+          LSA is the volume play — it takes more than half of everything Troy sends,
+          and it is where the collapse is sharpest. Troy High's LSA rate went from
+          <strong>70.5% to 36.0%</strong>. Athens' LSA rate is now under one in three.
+        </p>
+        <div class="cstats" id="cstats-lsa"></div>
+      </div>
+    </article>
+
+    <!-- ─────────────────────────── ENGINEERING ─────────────────────────── -->
+    <article class="campus eng">
+      <div class="art" id="art-eng"></div>
+      <div class="body">
+        <p class="tag"><span class="chip" style="background:#00B2A9"></span><span class="chip" style="background:#A5A508"></span>North Campus · U-M Taubman Teal #00B2A9 &amp; Wave Field Green #A5A508</p>
+        <h3>The College of Engineering</h3>
+        <p>
+          Engineering is the one bright spot. Troy High sent 79 applicants to CoE in
+          2025 — its most ever — and 42 got in, a <strong>53.2%</strong> rate that is
+          well above the university's overall 16.4%. A Troy engineering applicant today
+          still has better odds than a Troy applicant of any kind had in 2016.
+        </p>
+        <div class="cstats" id="cstats-eng"></div>
+      </div>
+    </article>
+
+    <!-- ─────────────────────────────── ROSS ────────────────────────────── -->
+    <article class="campus ross">
+      <div class="art" id="art-ross"></div>
+      <div class="body">
+        <p class="tag"><span class="chip" style="background:#D86018"></span>Ross School of Business · U-M Ross Orange #D86018</p>
+        <h3>Preferred admission to Ross</h3>
+        <p>
+          Ross only appears in the record from 2017, when the university began
+          itemising it. It is the hardest door in the dataset and the most volatile:
+          Athens sent 6 applicants in 2023 and got <strong>1</strong> in. Across nine
+          years, Troy and Athens together sent 246 applicants to Ross and got 74 offers.
+        </p>
+        <div class="cstats" id="cstats-ross"></div>
+      </div>
+    </article>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Admit rate by college — Troy High School</h4>
+          <p class="sub">Engineering holds up; LSA slides; Ross is a different animal entirely.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-colleges"></div>
+      <figcaption>
+        Ross is itemised only from 2017. "Other" is every remaining U-M school and
+        college, derived as the school total minus the itemised three.
+      </figcaption>
+    </figure>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Where Troy's applications go</h4>
+          <p class="sub">Troy High applications by college, 2004–2025.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-college-mix"></div>
+      <figcaption>
+        The mix has shifted toward Engineering and toward the schools outside the big
+        two — but LSA is still the bulk of what the district sends.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ═════════════════════════════════════════ ACT IV — WHAT TROY PAYS ════ -->
+<section class="alt" id="pays">
+  <div class="wrap">
+    <p class="act-label">Act IV · What Troy pays</p>
+    <h2>The house, and the bill</h2>
+    <p class="lede">
+      People move to Troy for the schools, and they pay for the privilege in the price
+      of the house. So it is fair to ask what that purchase now buys at the state's
+      flagship university.
+    </p>
+
+    <div class="stats" id="pays-stats"></div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Typical home value in the four Troy ZIP codes</h4>
+          <p class="sub">Zillow Home Value Index, annual mean of monthly values.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-homes"></div>
+      <figcaption>
+        Troy's housing market peaked in 2005, lost a third of its value by 2011, and
+        did not regain its 2005 nominal level until about 2017. 48098 (north-west Troy,
+        which feeds Troy High) is the most expensive of the four throughout.
+      </figcaption>
+    </figure>
+
+    <div class="callout">
+      <h4>The finding people miss</h4>
+      <p>
+        In nominal dollars a typical Troy home is up 56% since 2004. Adjusted for
+        inflation it is <strong>down about 8%</strong>. Troy homeowners are not, in real
+        terms, wealthier than they were in 2004 — but the tuition bill in front of them
+        is up 44% in those same real dollars.
+      </p>
+    </div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Troy home value vs. U-M in-state tuition, in constant 2025 dollars</h4>
+          <p class="sub">Both indexed to 2004 = 100, so they can share one axis honestly.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-real"></div>
+      <figcaption>
+        Indexed because the two series have different units — the alternative, a second
+        y-axis, can be made to show almost anything.
+      </figcaption>
+    </figure>
+
+    <h3>Precincts, and the honest caveats</h3>
+    <p>
+      Troy redrew its voting map on 21 April 2025, cutting 37 precincts down to
+      <strong>27</strong>. Precinct boundaries do not follow ZIP boundaries, and — more
+      importantly — they do not follow school-district boundaries either:
+      <strong>seven school districts</strong> reach into the City of Troy. Troy School
+      District covers most of the city but not all of it, and a handful of Troy
+      addresses are zoned to Avondale, Birmingham, Bloomfield Hills, Royal Oak, Lamphere
+      or Warren Consolidated.
+    </p>
+    <p>
+      So the ZIP-level values below are the closest defensible stand-in for
+      "what a house costs in TSD," not an exact district figure.
+    </p>
+    <div id="precinct-table"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ ACT V — WHO PAYS FOR MICHIGAN ═ -->
+<section id="whopays">
+  <div class="wrap">
+    <p class="act-label">Act V · Who pays for Michigan</p>
+    <h2>The state stepped back</h2>
+    <p class="lede">
+      There is a reason the door narrowed, and it is not that Michigan decided to
+      dislike Troy. Adjusted for inflation, the State of Michigan's appropriation to
+      the Ann Arbor campus is roughly a third smaller than it was in 2004.
+    </p>
+
+    <div class="stats" id="whopays-stats"></div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>State appropriation to U-M Ann Arbor, constant 2025 dollars</h4>
+          <p class="sub">Fiscal years ending 30 June. Source: IPEDS finance survey.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-approp"></div>
+      <figcaption>
+        Nominal appropriations rose from $312M to $366M. In real terms they fell from
+        $531M to $366M — a 31% cut in purchasing power.
+      </figcaption>
+    </figure>
+
+    <p class="pull">
+      A university that loses a third of its public subsidy per real dollar has three
+      options: shrink, charge more, or admit more of the people who pay triple. Michigan
+      chose the last two.
+    </p>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>In-state vs. out-of-state tuition and fees</h4>
+          <p class="sub">Published full-time undergraduate rates, nominal dollars.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-tuition"></div>
+      <figcaption>
+        A non-resident now pays about 3.5× a resident — $69,447 against $20,082.
+        Every non-resident admitted is, in budget terms, worth three-and-a-half Troy kids.
+      </figcaption>
+    </figure>
+
+    <div class="callout">
+      <h4>The number that explains the rest</h4>
+      <p>
+        Michigan's House Fiscal Agency reports that U-M Ann Arbor has
+        <strong>the lowest in-state share of any public university in Michigan — 49%</strong>,
+        against a statewide average of 80%. Barely half of the students at the state's
+        flagship are from the state.
+      </p>
+    </div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Endowment and institutional scholarships, constant 2025 dollars</h4>
+          <p class="sub">Indexed to 2004 = 100.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-endow"></div>
+      <figcaption>
+        The endowment nearly tripled in real terms, to $21.2 billion. The university's own
+        scholarship spending more than doubled in real terms too — the counterweight to
+        the tuition line, and a real one.
+      </figcaption>
+    </figure>
+
+    <div class="callout" style="border-left-color:#199e70;background:rgba(25,158,112,0.07)">
+      <h4>In fairness</h4>
+      <p>
+        Sticker price is not what most admitted Michigan families pay. U-M's institutional
+        aid rose from $169M to $626M — up 129% after inflation — and from autumn 2025 the
+        Go Blue Guarantee covers full tuition for in-state families earning under
+        $125,000. A Troy student who gets in today may well pay less than one who got in
+        in 2004. The problem this site documents is the <em>getting in</em>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════ ACT VI — THE LEDGER ═══ -->
+<section class="deep" id="ledger">
+  <div class="wrap">
+    <p class="act-label">Act VI · The ledger</p>
+    <h2>So — are we getting more, the same, or less?</h2>
+    <p class="lede">
+      Everything on one page, 2004 against 2025, in the units a household actually
+      experiences. Money is in constant 2025 dollars wherever the row says so.
+    </p>
+
+    <div class="ledger" id="the-ledger"></div>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Everything indexed to 2004 = 100</h4>
+          <p class="sub">What you pay, against what the district gets back.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-index"></div>
+      <figcaption>
+        The two flat lines at the bottom are the ones that matter: admits, and the odds
+        of getting one. Everything that rises is a cost.
+      </figcaption>
+    </figure>
+
+    <h3>The counterfactual</h3>
+    <p>
+      Hold the odds at 2004's 71.9% and run every later applicant pool through them.
+      The gap between that and what actually happened is the clearest statement of
+      what changed.
+    </p>
+
+    <figure>
+      <div class="figure-head">
+        <div>
+          <h4>Admits Troy School District would have had at 2004 odds</h4>
+          <p class="sub">Against admits it actually received.</p>
+        </div>
+      </div>
+      <div class="chart" id="c-shortfall"></div>
+      <figcaption>
+        The shaded distance between the lines totals <strong>1,208 admissions</strong>
+        across 2005–2025 — a little over one Troy High graduating class, spread across
+        twenty-one years.
+      </figcaption>
+    </figure>
+
+    <h2 style="margin-top:2em">The verdict</h2>
+    <p class="lede">
+      <strong>Fewer.</strong> Not fewer in raw count — the district squeezed out nine
+      percent more admits by sending twice as many students. Fewer per applicant,
+      fewer per dollar of house, fewer per dollar of tuition, and fewer per taxpayer.
+      Troy did everything right: more applicants, better records, stronger scores. It
+      bought a worse result, at a higher price, from a university its taxes fund less
+      of every year.
+    </p>
+  </div>
+</section>
+
+<!-- ═════════════════════════════════════════════════════ FULL DATA ══════ -->
+<section id="data">
+  <div class="wrap">
+    <p class="act-label">The record</p>
+    <h2>Year by year</h2>
+    <p class="lede">
+      Every figure on this site, in one table. Blank cells are gaps in the source
+      record, not zeros — they are left blank on purpose.
+    </p>
+    <p><a href="data/year_by_year.csv" download>Download the full table as CSV ↓</a> ·
+       <a href="data/tsd-uofm.json">the site's JSON payload</a></p>
+    <div class="datatable" id="full-table" style="max-height:70vh"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ METHODS & SOURCES ════ -->
+<section class="alt sources" id="methods">
+  <div class="wrap">
+    <p class="act-label">Methods &amp; sources</p>
+    <h2>Where all of this comes from</h2>
+    <dl>
+      <dt>Admissions</dt>
+      <dd>
+        University of Michigan <strong>FOIA response #261656</strong> — first-year
+        applications and admissions from Troy High School and Athens High School,
+        entering terms 2004–2025, itemised for Engineering, LSA and (from 2017) Ross.
+        "Other" is derived as the school total minus those three, and covers Nursing,
+        Kinesiology, Music/Theatre &amp; Dance, Art &amp; Design, Architecture,
+        Information and Public Policy.
+      </dd>
+
+      <dt>University</dt>
+      <dd>
+        U-M Office of Budget &amp; Planning, <a href="https://obp.umich.edu/campus-statistics/common-data-set/">Common Data Sets</a>,
+        1998–99 through 2025–26 (28 workbooks). Applications, admits, test-score
+        percentiles and GPA distributions are parsed from these directly. Where a
+        workbook states its own column total, the parse is checked against it; all
+        eleven years that publish one reconcile exactly, and the pre-2015 years match
+        IPEDS independently.
+      </dd>
+
+      <dt>Finance</dt>
+      <dd>
+        NCES <a href="https://nces.ed.gov/ipeds/datacenter/">IPEDS</a> finance survey,
+        form F1A, UNITID 170976, fiscal years 2004–2023 — state appropriation (F1B11),
+        endowment market value (F1H02) and institutional scholarships (F1E05 + F1E06).
+        FY2024 and FY2025 endowment come from U-M's published University Endowment Fund
+        Profiles ($19.2B and $21.2B); FY2024–25 appropriations from the state budget.
+        IPEDS has not yet released FY2024 finance, so the scholarship row stops at 2023.
+      </dd>
+
+      <dt>Tuition</dt>
+      <dd>
+        IPEDS academic-year tuition and required fees, full-time undergraduate, 2004–2023;
+        AY2024–25 and AY2025–26 read from the CDS 2025–26 workbook (resident and
+        non-resident taken off the same two columns so the pair stays on one basis).
+      </dd>
+
+      <dt>Housing</dt>
+      <dd>
+        <a href="https://www.zillow.com/research/data/">Zillow Home Value Index</a> (ZHVI),
+        all homes, smoothed and seasonally adjusted, at ZIP level for 48083, 48084, 48085
+        and 48098, averaged to annual figures. ZHVI is the typical value of a home in the
+        33rd–67th percentile range — not a median sale price. Zillow's ZIP-level median
+        sale-price series does not extend back to 2004, which is why ZHVI is used.
+      </dd>
+
+      <dt>Inflation</dt>
+      <dd>
+        BLS CPI-U, US city average, all items, not seasonally adjusted, annual average of
+        monthly values. 2025 is the average of eleven months — BLS never published an
+        October 2025 index.
+      </dd>
+
+      <dt>Geography</dt>
+      <dd>
+        City of Troy Clerk — the precinct map adopted 21 April 2025 reduced Troy from 37
+        precincts to 27. Seven school districts reach into the City of Troy, so ZIP-level
+        housing values approximate Troy School District without matching it exactly.
+      </dd>
+
+      <dt>Colour</dt>
+      <dd>
+        University of Michigan hues are the official values published by
+        <a href="https://brand.umich.edu/design-resources/colors/">U-M Brand &amp; Visual Identity</a>
+        (Maize #FFCB05, Blue #00274C, Ross Orange #D86018, Taubman Teal #00B2A9,
+        Arboretum Blue #2F65A7, Wave Field Green #A5A508). School colours were sampled
+        from each school's own athletics mark: Troy High #CFD0D2 / #000000; Athens
+        #C20F2F / #B4A169 / #000000. Chart marks use a separately validated categorical
+        palette — brand colours are used for identity, never to encode data, because
+        several of them fail colour-vision separation and contrast checks.
+      </dd>
+
+      <dt>Music</dt>
+      <dd>
+        The Michigan Marching Band — "Let's Go Blue," "Temptation," "M Fanfare,"
+        "The Victors," and the Bond opener (Goldfinger / Dr. No) — and Bob Dylan, "Tangled up in Blue," live at Wembley Stadium, July 1984, which the site is named for.
+      </dd>
+
+      <dt>Caveats</dt>
+      <dd>
+        The FOIA covers applications from these two high schools, which is not the same
+        as applications from residents of the district. Admit counts are offers, not
+        enrolments — some admitted students go elsewhere. Test-score percentiles for
+        2021–2023 reflect only submitters during the test-optional period. And 1,208 is
+        a counterfactual, not a forecast: had Michigan admitted at 2004 rates it would
+        have admitted differently everywhere, not only in Troy.
+      </dd>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p style="max-width:none">
+      Built from public records. Not affiliated with, endorsed by, or speaking for the
+      University of Michigan, Troy School District, Troy High School or Athens High School.
+      All trademarks belong to their owners.
+    </p>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════ PLAYER ═══════ -->
+<div class="player" role="region" aria-label="Michigan Marching Band player">
+  <canvas id="p-viz" aria-hidden="true"></canvas>
+  <button class="pbtn sm" id="p-prev" type="button" aria-label="Previous track">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6h2v12H7zm3 6l8 6V6z"/></svg>
+  </button>
+  <button class="pbtn" id="p-play" type="button" aria-label="Play">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+  </button>
+  <button class="pbtn sm" id="p-next" type="button" aria-label="Next track">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6h2v12h-2zM6 18l8-6-8-6z"/></svg>
+  </button>
+  <div class="pmeta">
+    <div class="ptitle" id="p-title">Let's Go Blue</div>
+    <div class="ptrack" id="p-track">Track 1 of 5</div>
+  </div>
+  <div class="pseek">
+    <span class="ptime" id="p-cur">0:00</span>
+    <div class="pbar" id="p-bar" role="slider" tabindex="0"
+         aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="fill" id="p-fill"></div>
+    </div>
+    <span class="ptime" id="p-dur">0:00</span>
+  </div>
+  <button class="pbtn sm" id="p-listbtn" type="button" aria-label="Playlist" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h13v2H3zm0 4h13v2H3zm0 4h9v2H3zm14-6v7.6a3 3 0 1 0 2 2.8V8h3V6h-5z"/></svg>
+  </button>
+  <div class="plist" id="p-list" hidden></div>
+</div>
+
+<script src="js/charts.js"></script>
+<script src="js/art.js"></script>
+<script src="js/main.js"></script>
+<script src="js/player.js"></script>
+</body>
+</html>

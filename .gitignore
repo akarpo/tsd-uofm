@@ -1,0 +1,14 @@
+# Bulk source data — all of it is re-fetchable with the scripts in scripts/,
+# and none of it belongs in a repo (the Zillow ZIP file alone is 129 MB).
+data/zhvi_zip.csv
+data/zsale_zip.csv
+data/cpi_raw.csv
+data/ipeds_fin/
+data/cds/
+
+# yt-dlp working directory; the shipped audio lives in site/audio/
+audio_raw/
+
+.DS_Store
+__pycache__/
+*.pyc

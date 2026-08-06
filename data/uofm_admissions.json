@@ -1,0 +1,1316 @@
+{
+  "source": "University of Michigan FOIA response #261656",
+  "description": "First-year applications and admissions to the University of Michigan-Ann Arbor from Troy High School and Athens High School (Troy School District, Oakland County, MI), entering terms 2004-2025. Totals are all-university; ENG/LSA/ROSS are itemized colleges and OTHER is the derived remainder.",
+  "colleges": {
+    "ENG": "College of Engineering",
+    "LSA": "College of Literature, Science, and the Arts",
+    "ROSS": "Stephen M. Ross School of Business (preferred admission; itemized 2017+)",
+    "OTHER": "All other U-M schools and colleges (derived: total minus itemized)"
+  },
+  "years": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "rows": [
+    {
+      "year": 2004,
+      "school": "Athens",
+      "applied": 68,
+      "admitted": 49,
+      "rate": 0.72059,
+      "colleges": {
+        "ENG": {
+          "applied": 8,
+          "admitted": 8,
+          "rate": 1.0
+        },
+        "LSA": {
+          "applied": 57,
+          "admitted": 40,
+          "rate": 0.70175
+        },
+        "OTHER": {
+          "applied": 3,
+          "admitted": 1,
+          "rate": 0.33333
+        }
+      }
+    },
+    {
+      "year": 2004,
+      "school": "Troy",
+      "applied": 131,
+      "admitted": 94,
+      "rate": 0.71756,
+      "colleges": {
+        "ENG": {
+          "applied": 20,
+          "admitted": 18,
+          "rate": 0.9
+        },
+        "LSA": {
+          "applied": 105,
+          "admitted": 74,
+          "rate": 0.70476
+        },
+        "OTHER": {
+          "applied": 6,
+          "admitted": 2,
+          "rate": 0.33333
+        }
+      }
+    },
+    {
+      "year": 2005,
+      "school": "Athens",
+      "applied": 90,
+      "admitted": 67,
+      "rate": 0.74444,
+      "colleges": {
+        "ENG": {
+          "applied": 25,
+          "admitted": 21,
+          "rate": 0.84
+        },
+        "LSA": {
+          "applied": 58,
+          "admitted": 42,
+          "rate": 0.72414
+        },
+        "OTHER": {
+          "applied": 7,
+          "admitted": 4,
+          "rate": 0.57143
+        }
+      }
+    },
+    {
+      "year": 2005,
+      "school": "Troy",
+      "applied": 154,
+      "admitted": 116,
+      "rate": 0.75325,
+      "colleges": {
+        "ENG": {
+          "applied": 26,
+          "admitted": 21,
+          "rate": 0.80769
+        },
+        "LSA": {
+          "applied": 109,
+          "admitted": 86,
+          "rate": 0.78899
+        },
+        "OTHER": {
+          "applied": 19,
+          "admitted": 9,
+          "rate": 0.47368
+        }
+      }
+    },
+    {
+      "year": 2006,
+      "school": "Athens",
+      "applied": 95,
+      "admitted": 58,
+      "rate": 0.61053,
+      "colleges": {
+        "ENG": {
+          "applied": 18,
+          "admitted": 16,
+          "rate": 0.88889
+        },
+        "LSA": {
+          "applied": 69,
+          "admitted": 39,
+          "rate": 0.56522
+        },
+        "OTHER": {
+          "applied": 8,
+          "admitted": 3,
+          "rate": 0.375
+        }
+      }
+    },
+    {
+      "year": 2006,
+      "school": "Troy",
+      "applied": 161,
+      "admitted": 97,
+      "rate": 0.60248,
+      "colleges": {
+        "ENG": {
+          "applied": 19,
+          "admitted": 17,
+          "rate": 0.89474
+        },
+        "LSA": {
+          "applied": 135,
+          "admitted": 79,
+          "rate": 0.58519
+        },
+        "OTHER": {
+          "applied": 7,
+          "admitted": 1,
+          "rate": 0.14286
+        }
+      }
+    },
+    {
+      "year": 2007,
+      "school": "Athens",
+      "applied": 96,
+      "admitted": 60,
+      "rate": 0.625,
+      "colleges": {
+        "ENG": {
+          "applied": 16,
+          "admitted": 14,
+          "rate": 0.875
+        },
+        "LSA": {
+          "applied": 70,
+          "admitted": 44,
+          "rate": 0.62857
+        },
+        "OTHER": {
+          "applied": 10,
+          "admitted": 2,
+          "rate": 0.2
+        }
+      }
+    },
+    {
+      "year": 2007,
+      "school": "Troy",
+      "applied": 190,
+      "admitted": 129,
+      "rate": 0.67895,
+      "colleges": {
+        "ENG": {
+          "applied": 29,
+          "admitted": 27,
+          "rate": 0.93103
+        },
+        "LSA": {
+          "applied": 145,
+          "admitted": 97,
+          "rate": 0.66897
+        },
+        "OTHER": {
+          "applied": 16,
+          "admitted": 5,
+          "rate": 0.3125
+        }
+      }
+    },
+    {
+      "year": 2008,
+      "school": "Athens",
+      "applied": 87,
+      "admitted": 53,
+      "rate": 0.6092,
+      "colleges": {
+        "ENG": {
+          "applied": 15,
+          "admitted": 11,
+          "rate": 0.73333
+        },
+        "LSA": {
+          "applied": 65,
+          "admitted": 39,
+          "rate": 0.6
+        },
+        "OTHER": {
+          "applied": 7,
+          "admitted": 3,
+          "rate": 0.42857
+        }
+      }
+    },
+    {
+      "year": 2008,
+      "school": "Troy",
+      "applied": 161,
+      "admitted": 95,
+      "rate": 0.59006,
+      "colleges": {
+        "ENG": {
+          "applied": 35,
+          "admitted": 29,
+          "rate": 0.82857
+        },
+        "LSA": {
+          "applied": 124,
+          "admitted": 65,
+          "rate": 0.52419
+        },
+        "OTHER": {
+          "applied": 2,
+          "admitted": 1,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "year": 2009,
+      "school": "Athens",
+      "applied": 103,
+      "admitted": 71,
+      "rate": 0.68932,
+      "colleges": {
+        "ENG": {
+          "applied": 15,
+          "admitted": 14,
+          "rate": 0.93333
+        },
+        "LSA": {
+          "applied": 79,
+          "admitted": 55,
+          "rate": 0.6962
+        },
+        "OTHER": {
+          "applied": 9,
+          "admitted": 2,
+          "rate": 0.22222
+        }
+      }
+    },
+    {
+      "year": 2009,
+      "school": "Troy",
+      "applied": 201,
+      "admitted": 137,
+      "rate": 0.68159,
+      "colleges": {
+        "ENG": {
+          "applied": 33,
+          "admitted": 28,
+          "rate": 0.84848
+        },
+        "LSA": {
+          "applied": 153,
+          "admitted": 105,
+          "rate": 0.68627
+        },
+        "OTHER": {
+          "applied": 15,
+          "admitted": 4,
+          "rate": 0.26667
+        }
+      }
+    },
+    {
+      "year": 2010,
+      "school": "Athens",
+      "applied": 99,
+      "admitted": 71,
+      "rate": 0.71717,
+      "colleges": {
+        "ENG": {
+          "applied": 19,
+          "admitted": 16,
+          "rate": 0.84211
+        },
+        "LSA": {
+          "applied": 69,
+          "admitted": 49,
+          "rate": 0.71014
+        },
+        "OTHER": {
+          "applied": 11,
+          "admitted": 6,
+          "rate": 0.54545
+        }
+      }
+    },
+    {
+      "year": 2010,
+      "school": "Troy",
+      "applied": 183,
+      "admitted": 142,
+      "rate": 0.77596,
+      "colleges": {
+        "ENG": {
+          "applied": 39,
+          "admitted": 34,
+          "rate": 0.87179
+        },
+        "LSA": {
+          "applied": 130,
+          "admitted": 103,
+          "rate": 0.79231
+        },
+        "OTHER": {
+          "applied": 14,
+          "admitted": 5,
+          "rate": 0.35714
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "school": "Athens",
+      "applied": 95,
+      "admitted": 61,
+      "rate": 0.64211,
+      "colleges": {
+        "ENG": {
+          "applied": 21,
+          "admitted": 15,
+          "rate": 0.71429
+        },
+        "LSA": {
+          "applied": 62,
+          "admitted": 39,
+          "rate": 0.62903
+        },
+        "OTHER": {
+          "applied": 12,
+          "admitted": 7,
+          "rate": 0.58333
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "school": "Troy",
+      "applied": 164,
+      "admitted": 93,
+      "rate": 0.56707,
+      "colleges": {
+        "ENG": {
+          "applied": 39,
+          "admitted": 26,
+          "rate": 0.66667
+        },
+        "LSA": {
+          "applied": 111,
+          "admitted": 58,
+          "rate": 0.52252
+        },
+        "OTHER": {
+          "applied": 14,
+          "admitted": 9,
+          "rate": 0.64286
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "school": "Athens",
+      "applied": 77,
+      "admitted": 49,
+      "rate": 0.63636,
+      "colleges": {
+        "ENG": {
+          "applied": 16,
+          "admitted": 13,
+          "rate": 0.8125
+        },
+        "LSA": {
+          "applied": 52,
+          "admitted": 28,
+          "rate": 0.53846
+        },
+        "OTHER": {
+          "applied": 9,
+          "admitted": 8,
+          "rate": 0.88889
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "school": "Troy",
+      "applied": 159,
+      "admitted": 87,
+      "rate": 0.54717,
+      "colleges": {
+        "ENG": {
+          "applied": 40,
+          "admitted": 27,
+          "rate": 0.675
+        },
+        "LSA": {
+          "applied": 110,
+          "admitted": 58,
+          "rate": 0.52727
+        },
+        "OTHER": {
+          "applied": 9,
+          "admitted": 2,
+          "rate": 0.22222
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "school": "Athens",
+      "applied": 76,
+      "admitted": 44,
+      "rate": 0.57895,
+      "colleges": {
+        "ENG": {
+          "applied": 23,
+          "admitted": 13,
+          "rate": 0.56522
+        },
+        "LSA": {
+          "applied": 47,
+          "admitted": 27,
+          "rate": 0.57447
+        },
+        "OTHER": {
+          "applied": 6,
+          "admitted": 4,
+          "rate": 0.66667
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "school": "Troy",
+      "applied": 169,
+      "admitted": 107,
+      "rate": 0.63314,
+      "colleges": {
+        "ENG": {
+          "applied": 38,
+          "admitted": 23,
+          "rate": 0.60526
+        },
+        "LSA": {
+          "applied": 125,
+          "admitted": 81,
+          "rate": 0.648
+        },
+        "OTHER": {
+          "applied": 6,
+          "admitted": 3,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "school": "Athens",
+      "applied": 64,
+      "admitted": 31,
+      "rate": 0.48438,
+      "colleges": {
+        "ENG": {
+          "applied": 15,
+          "admitted": 4,
+          "rate": 0.26667
+        },
+        "LSA": {
+          "applied": 45,
+          "admitted": 25,
+          "rate": 0.55556
+        },
+        "OTHER": {
+          "applied": 4,
+          "admitted": 2,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "school": "Troy",
+      "applied": 167,
+      "admitted": 86,
+      "rate": 0.51497,
+      "colleges": {
+        "ENG": {
+          "applied": 45,
+          "admitted": 24,
+          "rate": 0.53333
+        },
+        "LSA": {
+          "applied": 108,
+          "admitted": 56,
+          "rate": 0.51852
+        },
+        "OTHER": {
+          "applied": 14,
+          "admitted": 6,
+          "rate": 0.42857
+        }
+      }
+    },
+    {
+      "year": 2015,
+      "school": "Athens",
+      "applied": 88,
+      "admitted": 55,
+      "rate": 0.625,
+      "colleges": {
+        "ENG": {
+          "applied": 13,
+          "admitted": 6,
+          "rate": 0.46154
+        },
+        "LSA": {
+          "applied": 67,
+          "admitted": 46,
+          "rate": 0.68657
+        },
+        "OTHER": {
+          "applied": 8,
+          "admitted": 3,
+          "rate": 0.375
+        }
+      }
+    },
+    {
+      "year": 2015,
+      "school": "Troy",
+      "applied": 215,
+      "admitted": 110,
+      "rate": 0.51163,
+      "colleges": {
+        "ENG": {
+          "applied": 49,
+          "admitted": 29,
+          "rate": 0.59184
+        },
+        "LSA": {
+          "applied": 150,
+          "admitted": 76,
+          "rate": 0.50667
+        },
+        "OTHER": {
+          "applied": 16,
+          "admitted": 5,
+          "rate": 0.3125
+        }
+      }
+    },
+    {
+      "year": 2016,
+      "school": "Athens",
+      "applied": 78,
+      "admitted": 31,
+      "rate": 0.39744,
+      "colleges": {
+        "ENG": {
+          "applied": 19,
+          "admitted": 6,
+          "rate": 0.31579
+        },
+        "LSA": {
+          "applied": 55,
+          "admitted": 25,
+          "rate": 0.45455
+        },
+        "OTHER": {
+          "applied": 4,
+          "admitted": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "year": 2016,
+      "school": "Troy",
+      "applied": 213,
+      "admitted": 103,
+      "rate": 0.48357,
+      "colleges": {
+        "ENG": {
+          "applied": 67,
+          "admitted": 31,
+          "rate": 0.46269
+        },
+        "LSA": {
+          "applied": 131,
+          "admitted": 66,
+          "rate": 0.50382
+        },
+        "OTHER": {
+          "applied": 15,
+          "admitted": 6,
+          "rate": 0.4
+        }
+      }
+    },
+    {
+      "year": 2017,
+      "school": "Athens",
+      "applied": 97,
+      "admitted": 58,
+      "rate": 0.59794,
+      "colleges": {
+        "ENG": {
+          "applied": 25,
+          "admitted": 15,
+          "rate": 0.6
+        },
+        "LSA": {
+          "applied": 60,
+          "admitted": 38,
+          "rate": 0.63333
+        },
+        "ROSS": {
+          "applied": 1,
+          "admitted": 1,
+          "rate": 1.0
+        },
+        "OTHER": {
+          "applied": 11,
+          "admitted": 4,
+          "rate": 0.36364
+        }
+      }
+    },
+    {
+      "year": 2017,
+      "school": "Troy",
+      "applied": 202,
+      "admitted": 117,
+      "rate": 0.57921,
+      "colleges": {
+        "ENG": {
+          "applied": 57,
+          "admitted": 34,
+          "rate": 0.59649
+        },
+        "LSA": {
+          "applied": 119,
+          "admitted": 64,
+          "rate": 0.53782
+        },
+        "ROSS": {
+          "applied": 4,
+          "admitted": 4,
+          "rate": 1.0
+        },
+        "OTHER": {
+          "applied": 22,
+          "admitted": 15,
+          "rate": 0.68182
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "school": "Athens",
+      "applied": 79,
+      "admitted": 38,
+      "rate": 0.48101,
+      "colleges": {
+        "ENG": {
+          "applied": 20,
+          "admitted": 13,
+          "rate": 0.65
+        },
+        "LSA": {
+          "applied": 45,
+          "admitted": 21,
+          "rate": 0.46667
+        },
+        "ROSS": {
+          "applied": 10,
+          "admitted": 4,
+          "rate": 0.4
+        },
+        "OTHER": {
+          "applied": 4,
+          "admitted": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "school": "Troy",
+      "applied": 206,
+      "admitted": 101,
+      "rate": 0.49029,
+      "colleges": {
+        "ENG": {
+          "applied": 48,
+          "admitted": 28,
+          "rate": 0.58333
+        },
+        "LSA": {
+          "applied": 111,
+          "admitted": 60,
+          "rate": 0.54054
+        },
+        "ROSS": {
+          "applied": 33,
+          "admitted": 9,
+          "rate": 0.27273
+        },
+        "OTHER": {
+          "applied": 14,
+          "admitted": 4,
+          "rate": 0.28571
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "school": "Athens",
+      "applied": 89,
+      "admitted": 31,
+      "rate": 0.34831,
+      "colleges": {
+        "ENG": {
+          "applied": 22,
+          "admitted": 8,
+          "rate": 0.36364
+        },
+        "LSA": {
+          "applied": 48,
+          "admitted": 16,
+          "rate": 0.33333
+        },
+        "ROSS": {
+          "applied": 9,
+          "admitted": 4,
+          "rate": 0.44444
+        },
+        "OTHER": {
+          "applied": 10,
+          "admitted": 3,
+          "rate": 0.3
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "school": "Troy",
+      "applied": 205,
+      "admitted": 103,
+      "rate": 0.50244,
+      "colleges": {
+        "ENG": {
+          "applied": 50,
+          "admitted": 28,
+          "rate": 0.56
+        },
+        "LSA": {
+          "applied": 120,
+          "admitted": 59,
+          "rate": 0.49167
+        },
+        "ROSS": {
+          "applied": 25,
+          "admitted": 10,
+          "rate": 0.4
+        },
+        "OTHER": {
+          "applied": 10,
+          "admitted": 6,
+          "rate": 0.6
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "school": "Athens",
+      "applied": 88,
+      "admitted": 41,
+      "rate": 0.46591,
+      "colleges": {
+        "ENG": {
+          "applied": 16,
+          "admitted": 7,
+          "rate": 0.4375
+        },
+        "LSA": {
+          "applied": 58,
+          "admitted": 28,
+          "rate": 0.48276
+        },
+        "ROSS": {
+          "applied": 8,
+          "admitted": 3,
+          "rate": 0.375
+        },
+        "OTHER": {
+          "applied": 6,
+          "admitted": 3,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "school": "Troy",
+      "applied": 221,
+      "admitted": 112,
+      "rate": 0.50679,
+      "colleges": {
+        "ENG": {
+          "applied": 65,
+          "admitted": 39,
+          "rate": 0.6
+        },
+        "LSA": {
+          "applied": 111,
+          "admitted": 53,
+          "rate": 0.47748
+        },
+        "ROSS": {
+          "applied": 24,
+          "admitted": 11,
+          "rate": 0.45833
+        },
+        "OTHER": {
+          "applied": 21,
+          "admitted": 9,
+          "rate": 0.42857
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "school": "Athens",
+      "applied": 102,
+      "admitted": 40,
+      "rate": 0.39216,
+      "colleges": {
+        "ENG": {
+          "applied": 14,
+          "admitted": 6,
+          "rate": 0.42857
+        },
+        "LSA": {
+          "applied": 68,
+          "admitted": 23,
+          "rate": 0.33824
+        },
+        "ROSS": {
+          "applied": 11,
+          "admitted": 8,
+          "rate": 0.72727
+        },
+        "OTHER": {
+          "applied": 9,
+          "admitted": 3,
+          "rate": 0.33333
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "school": "Troy",
+      "applied": 251,
+      "admitted": 116,
+      "rate": 0.46215,
+      "colleges": {
+        "ENG": {
+          "applied": 60,
+          "admitted": 31,
+          "rate": 0.51667
+        },
+        "LSA": {
+          "applied": 154,
+          "admitted": 67,
+          "rate": 0.43506
+        },
+        "ROSS": {
+          "applied": 22,
+          "admitted": 11,
+          "rate": 0.5
+        },
+        "OTHER": {
+          "applied": 15,
+          "admitted": 7,
+          "rate": 0.46667
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "school": "Athens",
+      "applied": 113,
+      "admitted": 37,
+      "rate": 0.32743,
+      "colleges": {
+        "ENG": {
+          "applied": 23,
+          "admitted": 6,
+          "rate": 0.26087
+        },
+        "LSA": {
+          "applied": 65,
+          "admitted": 24,
+          "rate": 0.36923
+        },
+        "ROSS": {
+          "applied": 11,
+          "admitted": 5,
+          "rate": 0.45455
+        },
+        "OTHER": {
+          "applied": 14,
+          "admitted": 2,
+          "rate": 0.14286
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "school": "Troy",
+      "applied": 262,
+      "admitted": 105,
+      "rate": 0.40076,
+      "colleges": {
+        "ENG": {
+          "applied": 63,
+          "admitted": 33,
+          "rate": 0.52381
+        },
+        "LSA": {
+          "applied": 151,
+          "admitted": 59,
+          "rate": 0.39073
+        },
+        "ROSS": {
+          "applied": 30,
+          "admitted": 7,
+          "rate": 0.23333
+        },
+        "OTHER": {
+          "applied": 18,
+          "admitted": 6,
+          "rate": 0.33333
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "school": "Athens",
+      "applied": 107,
+      "admitted": 35,
+      "rate": 0.3271,
+      "colleges": {
+        "ENG": {
+          "applied": 19,
+          "admitted": 9,
+          "rate": 0.47368
+        },
+        "LSA": {
+          "applied": 66,
+          "admitted": 21,
+          "rate": 0.31818
+        },
+        "ROSS": {
+          "applied": 6,
+          "admitted": 1,
+          "rate": 0.16667
+        },
+        "OTHER": {
+          "applied": 16,
+          "admitted": 4,
+          "rate": 0.25
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "school": "Troy",
+      "applied": 280,
+      "admitted": 124,
+      "rate": 0.44286,
+      "colleges": {
+        "ENG": {
+          "applied": 65,
+          "admitted": 37,
+          "rate": 0.56923
+        },
+        "LSA": {
+          "applied": 174,
+          "admitted": 76,
+          "rate": 0.43678
+        },
+        "ROSS": {
+          "applied": 21,
+          "admitted": 6,
+          "rate": 0.28571
+        },
+        "OTHER": {
+          "applied": 20,
+          "admitted": 5,
+          "rate": 0.25
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "school": "Athens",
+      "applied": 111,
+      "admitted": 35,
+      "rate": 0.31532,
+      "colleges": {
+        "ENG": {
+          "applied": 31,
+          "admitted": 12,
+          "rate": 0.3871
+        },
+        "LSA": {
+          "applied": 54,
+          "admitted": 16,
+          "rate": 0.2963
+        },
+        "ROSS": {
+          "applied": 11,
+          "admitted": 2,
+          "rate": 0.18182
+        },
+        "OTHER": {
+          "applied": 15,
+          "admitted": 5,
+          "rate": 0.33333
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "school": "Troy",
+      "applied": 272,
+      "admitted": 98,
+      "rate": 0.36029,
+      "colleges": {
+        "ENG": {
+          "applied": 51,
+          "admitted": 18,
+          "rate": 0.35294
+        },
+        "LSA": {
+          "applied": 172,
+          "admitted": 62,
+          "rate": 0.36047
+        },
+        "ROSS": {
+          "applied": 29,
+          "admitted": 11,
+          "rate": 0.37931
+        },
+        "OTHER": {
+          "applied": 20,
+          "admitted": 7,
+          "rate": 0.35
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "school": "Athens",
+      "applied": 112,
+      "admitted": 38,
+      "rate": 0.33929,
+      "colleges": {
+        "ENG": {
+          "applied": 24,
+          "admitted": 8,
+          "rate": 0.33333
+        },
+        "LSA": {
+          "applied": 65,
+          "admitted": 24,
+          "rate": 0.36923
+        },
+        "ROSS": {
+          "applied": 11,
+          "admitted": 3,
+          "rate": 0.27273
+        },
+        "OTHER": {
+          "applied": 12,
+          "admitted": 3,
+          "rate": 0.25
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "school": "Troy",
+      "applied": 292,
+      "admitted": 118,
+      "rate": 0.40411,
+      "colleges": {
+        "ENG": {
+          "applied": 79,
+          "admitted": 42,
+          "rate": 0.53165
+        },
+        "LSA": {
+          "applied": 172,
+          "admitted": 62,
+          "rate": 0.36047
+        },
+        "ROSS": {
+          "applied": 20,
+          "admitted": 7,
+          "rate": 0.35
+        },
+        "OTHER": {
+          "applied": 21,
+          "admitted": 7,
+          "rate": 0.33333
+        }
+      }
+    }
+  ],
+  "district_combined": [
+    {
+      "year": 2004,
+      "applied": 199,
+      "admitted": 143,
+      "rate": 0.71859
+    },
+    {
+      "year": 2005,
+      "applied": 244,
+      "admitted": 183,
+      "rate": 0.75
+    },
+    {
+      "year": 2006,
+      "applied": 256,
+      "admitted": 155,
+      "rate": 0.60547
+    },
+    {
+      "year": 2007,
+      "applied": 286,
+      "admitted": 189,
+      "rate": 0.66084
+    },
+    {
+      "year": 2008,
+      "applied": 248,
+      "admitted": 148,
+      "rate": 0.59677
+    },
+    {
+      "year": 2009,
+      "applied": 304,
+      "admitted": 208,
+      "rate": 0.68421
+    },
+    {
+      "year": 2010,
+      "applied": 282,
+      "admitted": 213,
+      "rate": 0.75532
+    },
+    {
+      "year": 2011,
+      "applied": 259,
+      "admitted": 154,
+      "rate": 0.59459
+    },
+    {
+      "year": 2012,
+      "applied": 236,
+      "admitted": 136,
+      "rate": 0.57627
+    },
+    {
+      "year": 2013,
+      "applied": 245,
+      "admitted": 151,
+      "rate": 0.61633
+    },
+    {
+      "year": 2014,
+      "applied": 231,
+      "admitted": 117,
+      "rate": 0.50649
+    },
+    {
+      "year": 2015,
+      "applied": 303,
+      "admitted": 165,
+      "rate": 0.54455
+    },
+    {
+      "year": 2016,
+      "applied": 291,
+      "admitted": 134,
+      "rate": 0.46048
+    },
+    {
+      "year": 2017,
+      "applied": 299,
+      "admitted": 175,
+      "rate": 0.58528
+    },
+    {
+      "year": 2018,
+      "applied": 285,
+      "admitted": 139,
+      "rate": 0.48772
+    },
+    {
+      "year": 2019,
+      "applied": 294,
+      "admitted": 134,
+      "rate": 0.45578
+    },
+    {
+      "year": 2020,
+      "applied": 309,
+      "admitted": 153,
+      "rate": 0.49515
+    },
+    {
+      "year": 2021,
+      "applied": 353,
+      "admitted": 156,
+      "rate": 0.44193
+    },
+    {
+      "year": 2022,
+      "applied": 375,
+      "admitted": 142,
+      "rate": 0.37867
+    },
+    {
+      "year": 2023,
+      "applied": 387,
+      "admitted": 159,
+      "rate": 0.41085
+    },
+    {
+      "year": 2024,
+      "applied": 383,
+      "admitted": 133,
+      "rate": 0.34726
+    },
+    {
+      "year": 2025,
+      "applied": 404,
+      "admitted": 156,
+      "rate": 0.38614
+    }
+  ]
+}

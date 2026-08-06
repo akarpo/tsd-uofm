@@ -1,0 +1,2407 @@
+{
+ "meta": {
+  "title": "Troy School District -> University of Michigan, 2004-2025",
+  "built_from": {
+   "admissions": "U-M FOIA response #261656 (Troy High + Athens High, by college)",
+   "university": "U-M Common Data Sets 1998-99..2025-26 (obp.umich.edu)",
+   "finance": "NCES IPEDS Finance F1A, UNITID 170976",
+   "tuition": "IPEDS academic-year tuition; AY2024-25 and AY2025-26 from CDS 2025-26",
+   "housing": "Zillow ZHVI, ZIP level, annual mean of monthly values",
+   "prices": "BLS CPI-U (FRED CPIAUCNS), annual average"
+  },
+  "base_year": 2004,
+  "resident_share_note": "U-M Ann Arbor has the lowest in-state share of any Michigan public university: 49%, against an 80% statewide average (House Fiscal Agency, Higher Education Budget Briefing, FY2025-26)."
+ },
+ "series": [
+  {
+   "year": 2004,
+   "troy_applied": 131,
+   "troy_admitted": 94,
+   "troy_rate": 0.71756,
+   "athens_applied": 68,
+   "athens_admitted": 49,
+   "athens_rate": 0.72059,
+   "tsd_applied": 199,
+   "tsd_admitted": 143,
+   "tsd_rate": 0.71859,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 20,
+      "admitted": 18,
+      "rate": 0.9
+     },
+     "LSA": {
+      "applied": 105,
+      "admitted": 74,
+      "rate": 0.70476
+     },
+     "OTHER": {
+      "applied": 6,
+      "admitted": 2,
+      "rate": 0.33333
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 8,
+      "admitted": 8,
+      "rate": 1.0
+     },
+     "LSA": {
+      "applied": 57,
+      "admitted": 40,
+      "rate": 0.70175
+     },
+     "OTHER": {
+      "applied": 3,
+      "admitted": 1,
+      "rate": 0.33333
+     }
+    }
+   },
+   "um_applied": 21293,
+   "um_admitted": 13304,
+   "um_rate": 0.62481,
+   "um_act_25": 26,
+   "um_act_75": 30,
+   "um_sat_25": 1210,
+   "um_sat_75": 1400,
+   "um_gpa_375_plus": null,
+   "um_avg_gpa": null,
+   "tuition_in_state": 8201,
+   "tuition_out_state": 26027,
+   "home_value_troy": 304270,
+   "home_value_by_zip": {
+    "48085": 293971,
+    "48083": 237572,
+    "48098": 381687,
+    "48084": 303849
+   },
+   "state_appropriation": 311817000,
+   "endowment": 4282895000,
+   "institutional_scholarships": 169335000,
+   "cpi": 188.8833,
+   "cpi_factor_to_2025": 1.70445,
+   "state_appropriation_real": 531477904,
+   "institutional_scholarships_real": 288623811,
+   "tuition_in_state_real": 13978,
+   "home_value_troy_real": 518614,
+   "endowment_real": 7299999868,
+   "idx": {
+    "home_value": 100.0,
+    "home_value_real": 100.0,
+    "tuition": 100.0,
+    "tuition_real": 100.0,
+    "state_appropriation_real": 100.0,
+    "endowment_real": 100.0,
+    "scholarships_real": 100.0,
+    "tsd_admitted": 100.0,
+    "tsd_applied": 100.0,
+    "tsd_rate": 100.0,
+    "um_applied": 100.0
+   },
+   "four_year_tuition": 32804,
+   "degree_as_pct_of_home": 10.8
+  },
+  {
+   "year": 2005,
+   "troy_applied": 154,
+   "troy_admitted": 116,
+   "troy_rate": 0.75325,
+   "athens_applied": 90,
+   "athens_admitted": 67,
+   "athens_rate": 0.74444,
+   "tsd_applied": 244,
+   "tsd_admitted": 183,
+   "tsd_rate": 0.75,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 26,
+      "admitted": 21,
+      "rate": 0.80769
+     },
+     "LSA": {
+      "applied": 109,
+      "admitted": 86,
+      "rate": 0.78899
+     },
+     "OTHER": {
+      "applied": 19,
+      "admitted": 9,
+      "rate": 0.47368
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 25,
+      "admitted": 21,
+      "rate": 0.84
+     },
+     "LSA": {
+      "applied": 58,
+      "admitted": 42,
+      "rate": 0.72414
+     },
+     "OTHER": {
+      "applied": 7,
+      "admitted": 4,
+      "rate": 0.57143
+     }
+    }
+   },
+   "um_applied": 23882,
+   "um_admitted": 13610,
+   "um_rate": 0.56989,
+   "um_act_25": 26,
+   "um_act_75": 31,
+   "um_sat_25": 1220,
+   "um_sat_75": 1420,
+   "um_gpa_375_plus": null,
+   "um_avg_gpa": null,
+   "tuition_in_state": 9213,
+   "tuition_out_state": 27601,
+   "home_value_troy": 310851,
+   "home_value_by_zip": {
+    "48085": 301257,
+    "48083": 241018,
+    "48098": 389349,
+    "48084": 311781
+   },
+   "state_appropriation": 327944000,
+   "endowment": 4855333000,
+   "institutional_scholarships": 181066000,
+   "cpi": 195.2917,
+   "cpi_factor_to_2025": 1.64852,
+   "state_appropriation_real": 540623463,
+   "institutional_scholarships_real": 298491596,
+   "tuition_in_state_real": 15188,
+   "home_value_troy_real": 512445,
+   "endowment_real": 8004131625,
+   "idx": {
+    "home_value": 102.2,
+    "home_value_real": 98.8,
+    "tuition": 112.3,
+    "tuition_real": 108.7,
+    "state_appropriation_real": 101.7,
+    "endowment_real": 109.6,
+    "scholarships_real": 103.4,
+    "tsd_admitted": 128.0,
+    "tsd_applied": 122.6,
+    "tsd_rate": 104.4,
+    "um_applied": 112.2
+   },
+   "four_year_tuition": 36852,
+   "degree_as_pct_of_home": 11.9
+  },
+  {
+   "year": 2006,
+   "troy_applied": 161,
+   "troy_admitted": 97,
+   "troy_rate": 0.60248,
+   "athens_applied": 95,
+   "athens_admitted": 58,
+   "athens_rate": 0.61053,
+   "tsd_applied": 256,
+   "tsd_admitted": 155,
+   "tsd_rate": 0.60547,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 19,
+      "admitted": 17,
+      "rate": 0.89474
+     },
+     "LSA": {
+      "applied": 135,
+      "admitted": 79,
+      "rate": 0.58519
+     },
+     "OTHER": {
+      "applied": 7,
+      "admitted": 1,
+      "rate": 0.14286
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 18,
+      "admitted": 16,
+      "rate": 0.88889
+     },
+     "LSA": {
+      "applied": 69,
+      "admitted": 39,
+      "rate": 0.56522
+     },
+     "OTHER": {
+      "applied": 8,
+      "admitted": 3,
+      "rate": 0.375
+     }
+    }
+   },
+   "um_applied": 25806,
+   "um_admitted": 12246,
+   "um_rate": 0.47454,
+   "um_act_25": 27,
+   "um_act_75": 31,
+   "um_sat_25": 1210,
+   "um_sat_75": 1420,
+   "um_gpa_375_plus": null,
+   "um_avg_gpa": null,
+   "tuition_in_state": 9723,
+   "tuition_out_state": 29131,
+   "home_value_troy": 307603,
+   "home_value_by_zip": {
+    "48085": 298030,
+    "48083": 240564,
+    "48098": 384393,
+    "48084": 307424
+   },
+   "state_appropriation": 318903000,
+   "endowment": 5566433000,
+   "institutional_scholarships": 199804000,
+   "cpi": 201.5917,
+   "cpi_factor_to_2025": 1.59701,
+   "state_appropriation_real": 509289760,
+   "institutional_scholarships_real": 319088034,
+   "tuition_in_state_real": 15528,
+   "home_value_troy_real": 491244,
+   "endowment_real": 8889622635,
+   "idx": {
+    "home_value": 101.1,
+    "home_value_real": 94.7,
+    "tuition": 118.6,
+    "tuition_real": 111.1,
+    "state_appropriation_real": 95.8,
+    "endowment_real": 121.8,
+    "scholarships_real": 110.6,
+    "tsd_admitted": 108.4,
+    "tsd_applied": 128.6,
+    "tsd_rate": 84.3,
+    "um_applied": 121.2
+   },
+   "four_year_tuition": 38892,
+   "degree_as_pct_of_home": 12.6
+  },
+  {
+   "year": 2007,
+   "troy_applied": 190,
+   "troy_admitted": 129,
+   "troy_rate": 0.67895,
+   "athens_applied": 96,
+   "athens_admitted": 60,
+   "athens_rate": 0.625,
+   "tsd_applied": 286,
+   "tsd_admitted": 189,
+   "tsd_rate": 0.66084,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 29,
+      "admitted": 27,
+      "rate": 0.93103
+     },
+     "LSA": {
+      "applied": 145,
+      "admitted": 97,
+      "rate": 0.66897
+     },
+     "OTHER": {
+      "applied": 16,
+      "admitted": 5,
+      "rate": 0.3125
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 16,
+      "admitted": 14,
+      "rate": 0.875
+     },
+     "LSA": {
+      "applied": 70,
+      "admitted": 44,
+      "rate": 0.62857
+     },
+     "OTHER": {
+      "applied": 10,
+      "admitted": 2,
+      "rate": 0.2
+     }
+    }
+   },
+   "um_applied": 27474,
+   "um_admitted": 13826,
+   "um_rate": 0.50324,
+   "um_act_25": 27,
+   "um_act_75": 31,
+   "um_sat_25": 1220,
+   "um_sat_75": 1420,
+   "um_gpa_375_plus": 64.05,
+   "um_avg_gpa": null,
+   "tuition_in_state": 10447,
+   "tuition_out_state": 29131,
+   "home_value_troy": 284342,
+   "home_value_by_zip": {
+    "48085": 273175,
+    "48083": 225041,
+    "48098": 354873,
+    "48084": 284277
+   },
+   "state_appropriation": 290538000,
+   "endowment": 6986769000,
+   "institutional_scholarships": 212358000,
+   "cpi": 207.3424,
+   "cpi_factor_to_2025": 1.55271,
+   "state_appropriation_real": 451121793,
+   "institutional_scholarships_real": 329730782,
+   "tuition_in_state_real": 16221,
+   "home_value_troy_real": 441501,
+   "endowment_real": 10848438969,
+   "idx": {
+    "home_value": 93.5,
+    "home_value_real": 85.1,
+    "tuition": 127.4,
+    "tuition_real": 116.0,
+    "state_appropriation_real": 84.9,
+    "endowment_real": 148.6,
+    "scholarships_real": 114.2,
+    "tsd_admitted": 132.2,
+    "tsd_applied": 143.7,
+    "tsd_rate": 92.0,
+    "um_applied": 129.0
+   },
+   "four_year_tuition": 41788,
+   "degree_as_pct_of_home": 14.7
+  },
+  {
+   "year": 2008,
+   "troy_applied": 161,
+   "troy_admitted": 95,
+   "troy_rate": 0.59006,
+   "athens_applied": 87,
+   "athens_admitted": 53,
+   "athens_rate": 0.6092,
+   "tsd_applied": 248,
+   "tsd_admitted": 148,
+   "tsd_rate": 0.59677,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 35,
+      "admitted": 29,
+      "rate": 0.82857
+     },
+     "LSA": {
+      "applied": 124,
+      "admitted": 65,
+      "rate": 0.52419
+     },
+     "OTHER": {
+      "applied": 2,
+      "admitted": 1,
+      "rate": 0.5
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 15,
+      "admitted": 11,
+      "rate": 0.73333
+     },
+     "LSA": {
+      "applied": 65,
+      "admitted": 39,
+      "rate": 0.6
+     },
+     "OTHER": {
+      "applied": 7,
+      "admitted": 3,
+      "rate": 0.42857
+     }
+    }
+   },
+   "um_applied": 29814,
+   "um_admitted": 12567,
+   "um_rate": 0.42151,
+   "um_act_25": 27,
+   "um_act_75": 31,
+   "um_sat_25": 1220,
+   "um_sat_75": 1430,
+   "um_gpa_375_plus": 62.6,
+   "um_avg_gpa": null,
+   "tuition_in_state": 11037,
+   "tuition_out_state": 33069,
+   "home_value_troy": 253449,
+   "home_value_by_zip": {
+    "48085": 243880,
+    "48083": 202217,
+    "48098": 316845,
+    "48084": 250853
+   },
+   "state_appropriation": 353058000,
+   "endowment": 7462302000,
+   "institutional_scholarships": 233688000,
+   "cpi": 215.3025,
+   "cpi_factor_to_2025": 1.49531,
+   "state_appropriation_real": 527929549,
+   "institutional_scholarships_real": 349434938,
+   "tuition_in_state_real": 16504,
+   "home_value_troy_real": 378984,
+   "endowment_real": 11158420793,
+   "idx": {
+    "home_value": 83.3,
+    "home_value_real": 73.1,
+    "tuition": 134.6,
+    "tuition_real": 118.1,
+    "state_appropriation_real": 99.3,
+    "endowment_real": 152.9,
+    "scholarships_real": 121.1,
+    "tsd_admitted": 103.5,
+    "tsd_applied": 124.6,
+    "tsd_rate": 83.0,
+    "um_applied": 140.0
+   },
+   "four_year_tuition": 44148,
+   "degree_as_pct_of_home": 17.4
+  },
+  {
+   "year": 2009,
+   "troy_applied": 201,
+   "troy_admitted": 137,
+   "troy_rate": 0.68159,
+   "athens_applied": 103,
+   "athens_admitted": 71,
+   "athens_rate": 0.68932,
+   "tsd_applied": 304,
+   "tsd_admitted": 208,
+   "tsd_rate": 0.68421,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 33,
+      "admitted": 28,
+      "rate": 0.84848
+     },
+     "LSA": {
+      "applied": 153,
+      "admitted": 105,
+      "rate": 0.68627
+     },
+     "OTHER": {
+      "applied": 15,
+      "admitted": 4,
+      "rate": 0.26667
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 15,
+      "admitted": 14,
+      "rate": 0.93333
+     },
+     "LSA": {
+      "applied": 79,
+      "admitted": 55,
+      "rate": 0.6962
+     },
+     "OTHER": {
+      "applied": 9,
+      "admitted": 2,
+      "rate": 0.22222
+     }
+    }
+   },
+   "um_applied": 29965,
+   "um_admitted": 14970,
+   "um_rate": 0.49958,
+   "um_act_25": 27,
+   "um_act_75": 31,
+   "um_sat_25": 1230,
+   "um_sat_75": 1430,
+   "um_gpa_375_plus": 62.0,
+   "um_avg_gpa": null,
+   "tuition_in_state": 11659,
+   "tuition_out_state": 34937,
+   "home_value_troy": 217893,
+   "home_value_by_zip": {
+    "48085": 215376,
+    "48083": 171237,
+    "48098": 271952,
+    "48084": 213007
+   },
+   "state_appropriation": 326674000,
+   "endowment": 5914285000,
+   "institutional_scholarships": 256597000,
+   "cpi": 214.537,
+   "cpi_factor_to_2025": 1.50064,
+   "state_appropriation_real": 490220370,
+   "institutional_scholarships_real": 385059957,
+   "tuition_in_state_real": 17496,
+   "home_value_troy_real": 326979,
+   "endowment_real": 8875218054,
+   "idx": {
+    "home_value": 71.6,
+    "home_value_real": 63.0,
+    "tuition": 142.2,
+    "tuition_real": 125.2,
+    "state_appropriation_real": 92.2,
+    "endowment_real": 121.6,
+    "scholarships_real": 133.4,
+    "tsd_admitted": 145.5,
+    "tsd_applied": 152.8,
+    "tsd_rate": 95.2,
+    "um_applied": 140.7
+   },
+   "four_year_tuition": 46636,
+   "degree_as_pct_of_home": 21.4
+  },
+  {
+   "year": 2010,
+   "troy_applied": 183,
+   "troy_admitted": 142,
+   "troy_rate": 0.77596,
+   "athens_applied": 99,
+   "athens_admitted": 71,
+   "athens_rate": 0.71717,
+   "tsd_applied": 282,
+   "tsd_admitted": 213,
+   "tsd_rate": 0.75532,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 39,
+      "admitted": 34,
+      "rate": 0.87179
+     },
+     "LSA": {
+      "applied": 130,
+      "admitted": 103,
+      "rate": 0.79231
+     },
+     "OTHER": {
+      "applied": 14,
+      "admitted": 5,
+      "rate": 0.35714
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 19,
+      "admitted": 16,
+      "rate": 0.84211
+     },
+     "LSA": {
+      "applied": 69,
+      "admitted": 49,
+      "rate": 0.71014
+     },
+     "OTHER": {
+      "applied": 11,
+      "admitted": 6,
+      "rate": 0.54545
+     }
+    }
+   },
+   "um_applied": 31613,
+   "um_admitted": 16006,
+   "um_rate": 0.50631,
+   "um_act_25": 27,
+   "um_act_75": 31,
+   "um_sat_25": 1230,
+   "um_sat_75": 1440,
+   "um_gpa_375_plus": 63.1,
+   "um_avg_gpa": null,
+   "tuition_in_state": 11837,
+   "tuition_out_state": 36001,
+   "home_value_troy": 201399,
+   "home_value_by_zip": {
+    "48085": 199707,
+    "48083": 156480,
+    "48098": 255279,
+    "48084": 194129
+   },
+   "state_appropriation": 316571000,
+   "endowment": 6471770000,
+   "institutional_scholarships": 272472000,
+   "cpi": 218.0555,
+   "cpi_factor_to_2025": 1.47643,
+   "state_appropriation_real": 467393932,
+   "institutional_scholarships_real": 402284983,
+   "tuition_in_state_real": 17476,
+   "home_value_troy_real": 297351,
+   "endowment_real": 9555095144,
+   "idx": {
+    "home_value": 66.2,
+    "home_value_real": 57.3,
+    "tuition": 144.3,
+    "tuition_real": 125.0,
+    "state_appropriation_real": 87.9,
+    "endowment_real": 130.9,
+    "scholarships_real": 139.4,
+    "tsd_admitted": 149.0,
+    "tsd_applied": 141.7,
+    "tsd_rate": 105.1,
+    "um_applied": 148.5
+   },
+   "four_year_tuition": 47348,
+   "degree_as_pct_of_home": 23.5
+  },
+  {
+   "year": 2011,
+   "troy_applied": 164,
+   "troy_admitted": 93,
+   "troy_rate": 0.56707,
+   "athens_applied": 95,
+   "athens_admitted": 61,
+   "athens_rate": 0.64211,
+   "tsd_applied": 259,
+   "tsd_admitted": 154,
+   "tsd_rate": 0.59459,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 39,
+      "admitted": 26,
+      "rate": 0.66667
+     },
+     "LSA": {
+      "applied": 111,
+      "admitted": 58,
+      "rate": 0.52252
+     },
+     "OTHER": {
+      "applied": 14,
+      "admitted": 9,
+      "rate": 0.64286
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 21,
+      "admitted": 15,
+      "rate": 0.71429
+     },
+     "LSA": {
+      "applied": 62,
+      "admitted": 39,
+      "rate": 0.62903
+     },
+     "OTHER": {
+      "applied": 12,
+      "admitted": 7,
+      "rate": 0.58333
+     }
+    }
+   },
+   "um_applied": 39584,
+   "um_admitted": 16073,
+   "um_rate": 0.40605,
+   "um_act_25": 28,
+   "um_act_75": 32,
+   "um_sat_25": 1250,
+   "um_sat_75": 1450,
+   "um_gpa_375_plus": 69.0,
+   "um_avg_gpa": null,
+   "tuition_in_state": 13437,
+   "tuition_out_state": 39109,
+   "home_value_troy": 201298,
+   "home_value_by_zip": {
+    "48085": 198275,
+    "48083": 151439,
+    "48098": 258962,
+    "48084": 196517
+   },
+   "state_appropriation": 316255000,
+   "endowment": 7725307000,
+   "institutional_scholarships": 295906000,
+   "cpi": 224.9392,
+   "cpi_factor_to_2025": 1.43124,
+   "state_appropriation_real": 452638239,
+   "institutional_scholarships_real": 423513844,
+   "tuition_in_state_real": 19232,
+   "home_value_troy_real": 288107,
+   "endowment_real": 11056803401,
+   "idx": {
+    "home_value": 66.2,
+    "home_value_real": 55.6,
+    "tuition": 163.8,
+    "tuition_real": 137.6,
+    "state_appropriation_real": 85.2,
+    "endowment_real": 151.5,
+    "scholarships_real": 146.7,
+    "tsd_admitted": 107.7,
+    "tsd_applied": 130.2,
+    "tsd_rate": 82.7,
+    "um_applied": 185.9
+   },
+   "four_year_tuition": 53748,
+   "degree_as_pct_of_home": 26.7
+  },
+  {
+   "year": 2012,
+   "troy_applied": 159,
+   "troy_admitted": 87,
+   "troy_rate": 0.54717,
+   "athens_applied": 77,
+   "athens_admitted": 49,
+   "athens_rate": 0.63636,
+   "tsd_applied": 236,
+   "tsd_admitted": 136,
+   "tsd_rate": 0.57627,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 40,
+      "admitted": 27,
+      "rate": 0.675
+     },
+     "LSA": {
+      "applied": 110,
+      "admitted": 58,
+      "rate": 0.52727
+     },
+     "OTHER": {
+      "applied": 9,
+      "admitted": 2,
+      "rate": 0.22222
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 16,
+      "admitted": 13,
+      "rate": 0.8125
+     },
+     "LSA": {
+      "applied": 52,
+      "admitted": 28,
+      "rate": 0.53846
+     },
+     "OTHER": {
+      "applied": 9,
+      "admitted": 8,
+      "rate": 0.88889
+     }
+    }
+   },
+   "um_applied": 42544,
+   "um_admitted": 15551,
+   "um_rate": 0.36553,
+   "um_act_25": 28,
+   "um_act_75": 32,
+   "um_sat_25": 1260,
+   "um_sat_75": 1460,
+   "um_gpa_375_plus": 71.9,
+   "um_avg_gpa": null,
+   "tuition_in_state": 13819,
+   "tuition_out_state": 40496,
+   "home_value_troy": 209289,
+   "home_value_by_zip": {
+    "48085": 206788,
+    "48083": 150566,
+    "48098": 271034,
+    "48084": 208767
+   },
+   "state_appropriation": 268804000,
+   "endowment": 7586547000,
+   "institutional_scholarships": 314520000,
+   "cpi": 229.5939,
+   "cpi_factor_to_2025": 1.40223,
+   "state_appropriation_real": 376924501,
+   "institutional_scholarships_real": 441028757,
+   "tuition_in_state_real": 19377,
+   "home_value_troy_real": 293471,
+   "endowment_real": 10638068785,
+   "idx": {
+    "home_value": 68.8,
+    "home_value_real": 56.6,
+    "tuition": 168.5,
+    "tuition_real": 138.6,
+    "state_appropriation_real": 70.9,
+    "endowment_real": 145.7,
+    "scholarships_real": 152.8,
+    "tsd_admitted": 95.1,
+    "tsd_applied": 118.6,
+    "tsd_rate": 80.2,
+    "um_applied": 199.8
+   },
+   "four_year_tuition": 55276,
+   "degree_as_pct_of_home": 26.4
+  },
+  {
+   "year": 2013,
+   "troy_applied": 169,
+   "troy_admitted": 107,
+   "troy_rate": 0.63314,
+   "athens_applied": 76,
+   "athens_admitted": 44,
+   "athens_rate": 0.57895,
+   "tsd_applied": 245,
+   "tsd_admitted": 151,
+   "tsd_rate": 0.61633,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 38,
+      "admitted": 23,
+      "rate": 0.60526
+     },
+     "LSA": {
+      "applied": 125,
+      "admitted": 81,
+      "rate": 0.648
+     },
+     "OTHER": {
+      "applied": 6,
+      "admitted": 3,
+      "rate": 0.5
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 23,
+      "admitted": 13,
+      "rate": 0.56522
+     },
+     "LSA": {
+      "applied": 47,
+      "admitted": 27,
+      "rate": 0.57447
+     },
+     "OTHER": {
+      "applied": 6,
+      "admitted": 4,
+      "rate": 0.66667
+     }
+    }
+   },
+   "um_applied": 46813,
+   "um_admitted": 15570,
+   "um_rate": 0.3326,
+   "um_act_25": 28,
+   "um_act_75": 32,
+   "um_sat_25": 1280,
+   "um_sat_75": 1480,
+   "um_gpa_375_plus": 76.2,
+   "um_avg_gpa": null,
+   "tuition_in_state": 13977,
+   "tuition_out_state": 41811,
+   "home_value_troy": 237019,
+   "home_value_by_zip": {
+    "48085": 230700,
+    "48083": 170347,
+    "48098": 305735,
+    "48084": 241295
+   },
+   "state_appropriation": 274157000,
+   "endowment": 8272366000,
+   "institutional_scholarships": 328392000,
+   "cpi": 232.9571,
+   "cpi_factor_to_2025": 1.38198,
+   "state_appropriation_real": 378880605,
+   "institutional_scholarships_real": 453832511,
+   "tuition_in_state_real": 19316,
+   "home_value_troy_real": 327556,
+   "endowment_real": 11432277991,
+   "idx": {
+    "home_value": 77.9,
+    "home_value_real": 63.2,
+    "tuition": 170.4,
+    "tuition_real": 138.2,
+    "state_appropriation_real": 71.3,
+    "endowment_real": 156.6,
+    "scholarships_real": 157.2,
+    "tsd_admitted": 105.6,
+    "tsd_applied": 123.1,
+    "tsd_rate": 85.8,
+    "um_applied": 219.9
+   },
+   "four_year_tuition": 55908,
+   "degree_as_pct_of_home": 23.6
+  },
+  {
+   "year": 2014,
+   "troy_applied": 167,
+   "troy_admitted": 86,
+   "troy_rate": 0.51497,
+   "athens_applied": 64,
+   "athens_admitted": 31,
+   "athens_rate": 0.48438,
+   "tsd_applied": 231,
+   "tsd_admitted": 117,
+   "tsd_rate": 0.50649,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 45,
+      "admitted": 24,
+      "rate": 0.53333
+     },
+     "LSA": {
+      "applied": 108,
+      "admitted": 56,
+      "rate": 0.51852
+     },
+     "OTHER": {
+      "applied": 14,
+      "admitted": 6,
+      "rate": 0.42857
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 15,
+      "admitted": 4,
+      "rate": 0.26667
+     },
+     "LSA": {
+      "applied": 45,
+      "admitted": 25,
+      "rate": 0.55556
+     },
+     "OTHER": {
+      "applied": 4,
+      "admitted": 2,
+      "rate": 0.5
+     }
+    }
+   },
+   "um_applied": 49776,
+   "um_admitted": 16047,
+   "um_rate": 0.32238,
+   "um_act_25": 29,
+   "um_act_75": 33,
+   "um_sat_25": 1280,
+   "um_sat_75": 1480,
+   "um_gpa_375_plus": 75.0,
+   "um_avg_gpa": null,
+   "tuition_in_state": 14336,
+   "tuition_out_state": 43377,
+   "home_value_troy": 266664,
+   "home_value_by_zip": {
+    "48085": 256072,
+    "48083": 191989,
+    "48098": 342736,
+    "48084": 275860
+   },
+   "state_appropriation": 279233000,
+   "endowment": 9603919000,
+   "institutional_scholarships": 340270000,
+   "cpi": 236.7362,
+   "cpi_factor_to_2025": 1.35992,
+   "state_appropriation_real": 379735375,
+   "institutional_scholarships_real": 462740994,
+   "tuition_in_state_real": 19496,
+   "home_value_troy_real": 362643,
+   "endowment_real": 13060590204,
+   "idx": {
+    "home_value": 87.6,
+    "home_value_real": 69.9,
+    "tuition": 174.8,
+    "tuition_real": 139.5,
+    "state_appropriation_real": 71.4,
+    "endowment_real": 178.9,
+    "scholarships_real": 160.3,
+    "tsd_admitted": 81.8,
+    "tsd_applied": 116.1,
+    "tsd_rate": 70.5,
+    "um_applied": 233.8
+   },
+   "four_year_tuition": 57344,
+   "degree_as_pct_of_home": 21.5
+  },
+  {
+   "year": 2015,
+   "troy_applied": 215,
+   "troy_admitted": 110,
+   "troy_rate": 0.51163,
+   "athens_applied": 88,
+   "athens_admitted": 55,
+   "athens_rate": 0.625,
+   "tsd_applied": 303,
+   "tsd_admitted": 165,
+   "tsd_rate": 0.54455,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 49,
+      "admitted": 29,
+      "rate": 0.59184
+     },
+     "LSA": {
+      "applied": 150,
+      "admitted": 76,
+      "rate": 0.50667
+     },
+     "OTHER": {
+      "applied": 16,
+      "admitted": 5,
+      "rate": 0.3125
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 13,
+      "admitted": 6,
+      "rate": 0.46154
+     },
+     "LSA": {
+      "applied": 67,
+      "admitted": 46,
+      "rate": 0.68657
+     },
+     "OTHER": {
+      "applied": 8,
+      "admitted": 3,
+      "rate": 0.375
+     }
+    }
+   },
+   "um_applied": 51761,
+   "um_admitted": 13584,
+   "um_rate": 0.26244,
+   "um_act_25": 29,
+   "um_act_75": 33,
+   "um_sat_25": 1290,
+   "um_sat_75": 1500,
+   "um_gpa_375_plus": 76.9,
+   "um_avg_gpa": null,
+   "tuition_in_state": 14729,
+   "tuition_out_state": 45002,
+   "home_value_troy": 280196,
+   "home_value_by_zip": {
+    "48085": 270181,
+    "48083": 201927,
+    "48098": 357247,
+    "48084": 291430
+   },
+   "state_appropriation": 295174000,
+   "endowment": 9809705000,
+   "institutional_scholarships": 362622000,
+   "cpi": 237.017,
+   "cpi_factor_to_2025": 1.35831,
+   "state_appropriation_real": 400938342,
+   "institutional_scholarships_real": 492553760,
+   "tuition_in_state_real": 20007,
+   "home_value_troy_real": 380594,
+   "endowment_real": 13324638557,
+   "idx": {
+    "home_value": 92.1,
+    "home_value_real": 73.4,
+    "tuition": 179.6,
+    "tuition_real": 143.1,
+    "state_appropriation_real": 75.4,
+    "endowment_real": 182.5,
+    "scholarships_real": 170.7,
+    "tsd_admitted": 115.4,
+    "tsd_applied": 152.3,
+    "tsd_rate": 75.8,
+    "um_applied": 243.1
+   },
+   "four_year_tuition": 58916,
+   "degree_as_pct_of_home": 21.0
+  },
+  {
+   "year": 2016,
+   "troy_applied": 213,
+   "troy_admitted": 103,
+   "troy_rate": 0.48357,
+   "athens_applied": 78,
+   "athens_admitted": 31,
+   "athens_rate": 0.39744,
+   "tsd_applied": 291,
+   "tsd_admitted": 134,
+   "tsd_rate": 0.46048,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 67,
+      "admitted": 31,
+      "rate": 0.46269
+     },
+     "LSA": {
+      "applied": 131,
+      "admitted": 66,
+      "rate": 0.50382
+     },
+     "OTHER": {
+      "applied": 15,
+      "admitted": 6,
+      "rate": 0.4
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 19,
+      "admitted": 6,
+      "rate": 0.31579
+     },
+     "LSA": {
+      "applied": 55,
+      "admitted": 25,
+      "rate": 0.45455
+     },
+     "OTHER": {
+      "applied": 4,
+      "admitted": 0,
+      "rate": 0.0
+     }
+    }
+   },
+   "um_applied": 55504,
+   "um_admitted": 15871,
+   "um_rate": 0.28594,
+   "um_act_25": 29,
+   "um_act_75": 33,
+   "um_sat_25": 1310,
+   "um_sat_75": 1500,
+   "um_gpa_375_plus": 79.6,
+   "um_avg_gpa": null,
+   "tuition_in_state": 15310,
+   "tuition_out_state": 47004,
+   "home_value_troy": 290307,
+   "home_value_by_zip": {
+    "48085": 279699,
+    "48083": 213280,
+    "48098": 365026,
+    "48084": 303222
+   },
+   "state_appropriation": 299976000,
+   "endowment": 9600640000,
+   "institutional_scholarships": 388880000,
+   "cpi": 240.0072,
+   "cpi_factor_to_2025": 1.34139,
+   "state_appropriation_real": 402384484,
+   "institutional_scholarships_real": 521639325,
+   "tuition_in_state_real": 20537,
+   "home_value_troy_real": 389415,
+   "endowment_real": 12878192169,
+   "idx": {
+    "home_value": 95.4,
+    "home_value_real": 75.1,
+    "tuition": 186.7,
+    "tuition_real": 146.9,
+    "state_appropriation_real": 75.7,
+    "endowment_real": 176.4,
+    "scholarships_real": 180.7,
+    "tsd_admitted": 93.7,
+    "tsd_applied": 146.2,
+    "tsd_rate": 64.1,
+    "um_applied": 260.7
+   },
+   "four_year_tuition": 61240,
+   "degree_as_pct_of_home": 21.1
+  },
+  {
+   "year": 2017,
+   "troy_applied": 202,
+   "troy_admitted": 117,
+   "troy_rate": 0.57921,
+   "athens_applied": 97,
+   "athens_admitted": 58,
+   "athens_rate": 0.59794,
+   "tsd_applied": 299,
+   "tsd_admitted": 175,
+   "tsd_rate": 0.58528,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 57,
+      "admitted": 34,
+      "rate": 0.59649
+     },
+     "LSA": {
+      "applied": 119,
+      "admitted": 64,
+      "rate": 0.53782
+     },
+     "ROSS": {
+      "applied": 4,
+      "admitted": 4,
+      "rate": 1.0
+     },
+     "OTHER": {
+      "applied": 22,
+      "admitted": 15,
+      "rate": 0.68182
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 25,
+      "admitted": 15,
+      "rate": 0.6
+     },
+     "LSA": {
+      "applied": 60,
+      "admitted": 38,
+      "rate": 0.63333
+     },
+     "ROSS": {
+      "applied": 1,
+      "admitted": 1,
+      "rate": 1.0
+     },
+     "OTHER": {
+      "applied": 11,
+      "admitted": 4,
+      "rate": 0.36364
+     }
+    }
+   },
+   "um_applied": 59886,
+   "um_admitted": 15871,
+   "um_rate": 0.26502,
+   "um_act_25": 30,
+   "um_act_75": 33,
+   "um_sat_25": 1330,
+   "um_sat_75": 1500,
+   "um_gpa_375_plus": 80.9,
+   "um_avg_gpa": null,
+   "tuition_in_state": 15761,
+   "tuition_out_state": 49142,
+   "home_value_troy": 305054,
+   "home_value_by_zip": {
+    "48085": 295196,
+    "48083": 227216,
+    "48098": 377831,
+    "48084": 319975
+   },
+   "state_appropriation": 308640000,
+   "endowment": 10777563000,
+   "institutional_scholarships": 430731000,
+   "cpi": 245.1196,
+   "cpi_factor_to_2025": 1.31341,
+   "state_appropriation_real": 405371449,
+   "institutional_scholarships_real": 565727222,
+   "tuition_in_state_real": 20701,
+   "home_value_troy_real": 400662,
+   "endowment_real": 14155379516,
+   "idx": {
+    "home_value": 100.3,
+    "home_value_real": 77.3,
+    "tuition": 192.2,
+    "tuition_real": 148.1,
+    "state_appropriation_real": 76.3,
+    "endowment_real": 193.9,
+    "scholarships_real": 196.0,
+    "tsd_admitted": 122.4,
+    "tsd_applied": 150.3,
+    "tsd_rate": 81.4,
+    "um_applied": 281.2
+   },
+   "four_year_tuition": 63044,
+   "degree_as_pct_of_home": 20.7
+  },
+  {
+   "year": 2018,
+   "troy_applied": 206,
+   "troy_admitted": 101,
+   "troy_rate": 0.49029,
+   "athens_applied": 79,
+   "athens_admitted": 38,
+   "athens_rate": 0.48101,
+   "tsd_applied": 285,
+   "tsd_admitted": 139,
+   "tsd_rate": 0.48772,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 48,
+      "admitted": 28,
+      "rate": 0.58333
+     },
+     "LSA": {
+      "applied": 111,
+      "admitted": 60,
+      "rate": 0.54054
+     },
+     "ROSS": {
+      "applied": 33,
+      "admitted": 9,
+      "rate": 0.27273
+     },
+     "OTHER": {
+      "applied": 14,
+      "admitted": 4,
+      "rate": 0.28571
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 20,
+      "admitted": 13,
+      "rate": 0.65
+     },
+     "LSA": {
+      "applied": 45,
+      "admitted": 21,
+      "rate": 0.46667
+     },
+     "ROSS": {
+      "applied": 10,
+      "admitted": 4,
+      "rate": 0.4
+     },
+     "OTHER": {
+      "applied": 4,
+      "admitted": 0,
+      "rate": 0.0
+     }
+    }
+   },
+   "um_applied": 64917,
+   "um_admitted": 14818,
+   "um_rate": 0.22826,
+   "um_act_25": 30,
+   "um_act_75": 34,
+   "um_sat_25": 1330,
+   "um_sat_75": 1510,
+   "um_gpa_375_plus": 84.3,
+   "um_avg_gpa": null,
+   "tuition_in_state": 16225,
+   "tuition_out_state": 51082,
+   "home_value_troy": 321035,
+   "home_value_by_zip": {
+    "48085": 311442,
+    "48083": 242488,
+    "48098": 394212,
+    "48084": 335999
+   },
+   "state_appropriation": 314590000,
+   "endowment": 11733013000,
+   "institutional_scholarships": 472486000,
+   "cpi": 251.1068,
+   "cpi_factor_to_2025": 1.2821,
+   "state_appropriation_real": 403334551,
+   "institutional_scholarships_real": 605772366,
+   "tuition_in_state_real": 20802,
+   "home_value_troy_real": 411598,
+   "endowment_real": 15042847921,
+   "idx": {
+    "home_value": 105.5,
+    "home_value_real": 79.4,
+    "tuition": 197.8,
+    "tuition_real": 148.8,
+    "state_appropriation_real": 75.9,
+    "endowment_real": 206.1,
+    "scholarships_real": 209.9,
+    "tsd_admitted": 97.2,
+    "tsd_applied": 143.2,
+    "tsd_rate": 67.9,
+    "um_applied": 304.9
+   },
+   "four_year_tuition": 64900,
+   "degree_as_pct_of_home": 20.2
+  },
+  {
+   "year": 2019,
+   "troy_applied": 205,
+   "troy_admitted": 103,
+   "troy_rate": 0.50244,
+   "athens_applied": 89,
+   "athens_admitted": 31,
+   "athens_rate": 0.34831,
+   "tsd_applied": 294,
+   "tsd_admitted": 134,
+   "tsd_rate": 0.45578,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 50,
+      "admitted": 28,
+      "rate": 0.56
+     },
+     "LSA": {
+      "applied": 120,
+      "admitted": 59,
+      "rate": 0.49167
+     },
+     "ROSS": {
+      "applied": 25,
+      "admitted": 10,
+      "rate": 0.4
+     },
+     "OTHER": {
+      "applied": 10,
+      "admitted": 6,
+      "rate": 0.6
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 22,
+      "admitted": 8,
+      "rate": 0.36364
+     },
+     "LSA": {
+      "applied": 48,
+      "admitted": 16,
+      "rate": 0.33333
+     },
+     "ROSS": {
+      "applied": 9,
+      "admitted": 4,
+      "rate": 0.44444
+     },
+     "OTHER": {
+      "applied": 10,
+      "admitted": 3,
+      "rate": 0.3
+     }
+    }
+   },
+   "um_applied": 64972,
+   "um_admitted": 14883,
+   "um_rate": 0.22907,
+   "um_act_25": 31,
+   "um_act_75": 34,
+   "um_sat_25": 1340,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 88.8,
+   "um_avg_gpa": 3.88,
+   "tuition_in_state": 16540,
+   "tuition_out_state": 52997,
+   "home_value_troy": 333675,
+   "home_value_by_zip": {
+    "48085": 323195,
+    "48083": 256928,
+    "48098": 406490,
+    "48084": 348086
+   },
+   "state_appropriation": 320785000,
+   "endowment": 12273834000,
+   "institutional_scholarships": 508792000,
+   "cpi": 255.6574,
+   "cpi_factor_to_2025": 1.25928,
+   "state_appropriation_real": 403956566,
+   "institutional_scholarships_real": 640709101,
+   "tuition_in_state_real": 20828,
+   "home_value_troy_real": 420189,
+   "endowment_real": 15456133636,
+   "idx": {
+    "home_value": 109.7,
+    "home_value_real": 81.0,
+    "tuition": 201.7,
+    "tuition_real": 149.0,
+    "state_appropriation_real": 76.0,
+    "endowment_real": 211.7,
+    "scholarships_real": 222.0,
+    "tsd_admitted": 93.7,
+    "tsd_applied": 147.7,
+    "tsd_rate": 63.4,
+    "um_applied": 305.1
+   },
+   "four_year_tuition": 66160,
+   "degree_as_pct_of_home": 19.8
+  },
+  {
+   "year": 2020,
+   "troy_applied": 221,
+   "troy_admitted": 112,
+   "troy_rate": 0.50679,
+   "athens_applied": 88,
+   "athens_admitted": 41,
+   "athens_rate": 0.46591,
+   "tsd_applied": 309,
+   "tsd_admitted": 153,
+   "tsd_rate": 0.49515,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 65,
+      "admitted": 39,
+      "rate": 0.6
+     },
+     "LSA": {
+      "applied": 111,
+      "admitted": 53,
+      "rate": 0.47748
+     },
+     "ROSS": {
+      "applied": 24,
+      "admitted": 11,
+      "rate": 0.45833
+     },
+     "OTHER": {
+      "applied": 21,
+      "admitted": 9,
+      "rate": 0.42857
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 16,
+      "admitted": 7,
+      "rate": 0.4375
+     },
+     "LSA": {
+      "applied": 58,
+      "admitted": 28,
+      "rate": 0.48276
+     },
+     "ROSS": {
+      "applied": 8,
+      "admitted": 3,
+      "rate": 0.375
+     },
+     "OTHER": {
+      "applied": 6,
+      "admitted": 3,
+      "rate": 0.5
+     }
+    }
+   },
+   "um_applied": 65021,
+   "um_admitted": 16974,
+   "um_rate": 0.26105,
+   "um_act_25": 31,
+   "um_act_75": 34,
+   "um_sat_25": 1340,
+   "um_sat_75": 1520,
+   "um_gpa_375_plus": 86.3,
+   "um_avg_gpa": 3.87,
+   "tuition_in_state": 16948,
+   "tuition_out_state": 54097,
+   "home_value_troy": 340814,
+   "home_value_by_zip": {
+    "48085": 331776,
+    "48083": 262854,
+    "48098": 411004,
+    "48084": 357623
+   },
+   "state_appropriation": 286688000,
+   "endowment": 12308473000,
+   "institutional_scholarships": 544391000,
+   "cpi": 258.8112,
+   "cpi_factor_to_2025": 1.24393,
+   "state_appropriation_real": 356619786,
+   "institutional_scholarships_real": 677184263,
+   "tuition_in_state_real": 21082,
+   "home_value_troy_real": 423949,
+   "endowment_real": 15310878057,
+   "idx": {
+    "home_value": 112.0,
+    "home_value_real": 81.7,
+    "tuition": 206.7,
+    "tuition_real": 150.8,
+    "state_appropriation_real": 67.1,
+    "endowment_real": 209.7,
+    "scholarships_real": 234.6,
+    "tsd_admitted": 107.0,
+    "tsd_applied": 155.3,
+    "tsd_rate": 68.9,
+    "um_applied": 305.4
+   },
+   "four_year_tuition": 67792,
+   "degree_as_pct_of_home": 19.9
+  },
+  {
+   "year": 2021,
+   "troy_applied": 251,
+   "troy_admitted": 116,
+   "troy_rate": 0.46215,
+   "athens_applied": 102,
+   "athens_admitted": 40,
+   "athens_rate": 0.39216,
+   "tsd_applied": 353,
+   "tsd_admitted": 156,
+   "tsd_rate": 0.44193,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 60,
+      "admitted": 31,
+      "rate": 0.51667
+     },
+     "LSA": {
+      "applied": 154,
+      "admitted": 67,
+      "rate": 0.43506
+     },
+     "ROSS": {
+      "applied": 22,
+      "admitted": 11,
+      "rate": 0.5
+     },
+     "OTHER": {
+      "applied": 15,
+      "admitted": 7,
+      "rate": 0.46667
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 14,
+      "admitted": 6,
+      "rate": 0.42857
+     },
+     "LSA": {
+      "applied": 68,
+      "admitted": 23,
+      "rate": 0.33824
+     },
+     "ROSS": {
+      "applied": 11,
+      "admitted": 8,
+      "rate": 0.72727
+     },
+     "OTHER": {
+      "applied": 9,
+      "admitted": 3,
+      "rate": 0.33333
+     }
+    }
+   },
+   "um_applied": 79743,
+   "um_admitted": 16071,
+   "um_rate": 0.20153,
+   "um_act_25": 31,
+   "um_act_75": 35,
+   "um_sat_25": 1360,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 88.0,
+   "um_avg_gpa": 3.88,
+   "tuition_in_state": 17193,
+   "tuition_out_state": 55097,
+   "home_value_troy": 379638,
+   "home_value_by_zip": {
+    "48085": 372935,
+    "48083": 294127,
+    "48098": 456317,
+    "48084": 395174
+   },
+   "state_appropriation": 322932000,
+   "endowment": 16795776000,
+   "institutional_scholarships": 541513000,
+   "cpi": 270.9698,
+   "cpi_factor_to_2025": 1.18811,
+   "state_appropriation_real": 383680015,
+   "institutional_scholarships_real": 643379151,
+   "tuition_in_state_real": 20427,
+   "home_value_troy_real": 451053,
+   "endowment_real": 19955295803,
+   "idx": {
+    "home_value": 124.8,
+    "home_value_real": 87.0,
+    "tuition": 209.6,
+    "tuition_real": 146.1,
+    "state_appropriation_real": 72.2,
+    "endowment_real": 273.4,
+    "scholarships_real": 222.9,
+    "tsd_admitted": 109.1,
+    "tsd_applied": 177.4,
+    "tsd_rate": 61.5,
+    "um_applied": 374.5
+   },
+   "four_year_tuition": 68772,
+   "degree_as_pct_of_home": 18.1
+  },
+  {
+   "year": 2022,
+   "troy_applied": 262,
+   "troy_admitted": 105,
+   "troy_rate": 0.40076,
+   "athens_applied": 113,
+   "athens_admitted": 37,
+   "athens_rate": 0.32743,
+   "tsd_applied": 375,
+   "tsd_admitted": 142,
+   "tsd_rate": 0.37867,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 63,
+      "admitted": 33,
+      "rate": 0.52381
+     },
+     "LSA": {
+      "applied": 151,
+      "admitted": 59,
+      "rate": 0.39073
+     },
+     "ROSS": {
+      "applied": 30,
+      "admitted": 7,
+      "rate": 0.23333
+     },
+     "OTHER": {
+      "applied": 18,
+      "admitted": 6,
+      "rate": 0.33333
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 23,
+      "admitted": 6,
+      "rate": 0.26087
+     },
+     "LSA": {
+      "applied": 65,
+      "admitted": 24,
+      "rate": 0.36923
+     },
+     "ROSS": {
+      "applied": 11,
+      "admitted": 5,
+      "rate": 0.45455
+     },
+     "OTHER": {
+      "applied": 14,
+      "admitted": 2,
+      "rate": 0.14286
+     }
+    }
+   },
+   "um_applied": 84289,
+   "um_admitted": 14914,
+   "um_rate": 0.17694,
+   "um_act_25": 31,
+   "um_act_75": 34,
+   "um_sat_25": 1350,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 92.4,
+   "um_avg_gpa": 3.9,
+   "tuition_in_state": 17786,
+   "tuition_out_state": 57273,
+   "home_value_troy": 416987,
+   "home_value_by_zip": {
+    "48085": 409964,
+    "48083": 322166,
+    "48098": 507073,
+    "48084": 428744
+   },
+   "state_appropriation": 338895000,
+   "endowment": 17095088000,
+   "institutional_scholarships": 556154000,
+   "cpi": 292.6549,
+   "cpi_factor_to_2025": 1.10008,
+   "state_appropriation_real": 372810682,
+   "institutional_scholarships_real": 611812367,
+   "tuition_in_state_real": 19566,
+   "home_value_troy_real": 458718,
+   "endowment_real": 18805917536,
+   "idx": {
+    "home_value": 137.0,
+    "home_value_real": 88.5,
+    "tuition": 216.9,
+    "tuition_real": 140.0,
+    "state_appropriation_real": 70.1,
+    "endowment_real": 257.6,
+    "scholarships_real": 212.0,
+    "tsd_admitted": 99.3,
+    "tsd_applied": 188.4,
+    "tsd_rate": 52.7,
+    "um_applied": 395.9
+   },
+   "four_year_tuition": 71144,
+   "degree_as_pct_of_home": 17.1
+  },
+  {
+   "year": 2023,
+   "troy_applied": 280,
+   "troy_admitted": 124,
+   "troy_rate": 0.44286,
+   "athens_applied": 107,
+   "athens_admitted": 35,
+   "athens_rate": 0.3271,
+   "tsd_applied": 387,
+   "tsd_admitted": 159,
+   "tsd_rate": 0.41085,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 65,
+      "admitted": 37,
+      "rate": 0.56923
+     },
+     "LSA": {
+      "applied": 174,
+      "admitted": 76,
+      "rate": 0.43678
+     },
+     "ROSS": {
+      "applied": 21,
+      "admitted": 6,
+      "rate": 0.28571
+     },
+     "OTHER": {
+      "applied": 20,
+      "admitted": 5,
+      "rate": 0.25
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 19,
+      "admitted": 9,
+      "rate": 0.47368
+     },
+     "LSA": {
+      "applied": 66,
+      "admitted": 21,
+      "rate": 0.31818
+     },
+     "ROSS": {
+      "applied": 6,
+      "admitted": 1,
+      "rate": 0.16667
+     },
+     "OTHER": {
+      "applied": 16,
+      "admitted": 4,
+      "rate": 0.25
+     }
+    }
+   },
+   "um_applied": 87632,
+   "um_admitted": 15722,
+   "um_rate": 0.17941,
+   "um_act_25": 31,
+   "um_act_75": 34,
+   "um_sat_25": 1350,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 92.3,
+   "um_avg_gpa": 3.9,
+   "tuition_in_state": 18309,
+   "tuition_out_state": 60107,
+   "home_value_troy": 426511,
+   "home_value_by_zip": {
+    "48085": 418316,
+    "48083": 327078,
+    "48098": 525298,
+    "48084": 435351
+   },
+   "state_appropriation": 339198000,
+   "endowment": 17626819000,
+   "institutional_scholarships": 625943000,
+   "cpi": 304.7016,
+   "cpi_factor_to_2025": 1.05658,
+   "state_appropriation_real": 358391363,
+   "institutional_scholarships_real": 661361697,
+   "tuition_in_state_real": 19345,
+   "home_value_troy_real": 450645,
+   "endowment_real": 18624224452,
+   "idx": {
+    "home_value": 140.2,
+    "home_value_real": 86.9,
+    "tuition": 223.3,
+    "tuition_real": 138.4,
+    "state_appropriation_real": 67.4,
+    "endowment_real": 255.1,
+    "scholarships_real": 229.1,
+    "tsd_admitted": 111.2,
+    "tsd_applied": 194.5,
+    "tsd_rate": 57.2,
+    "um_applied": 411.6
+   },
+   "four_year_tuition": 73236,
+   "degree_as_pct_of_home": 17.2
+  },
+  {
+   "year": 2024,
+   "troy_applied": 272,
+   "troy_admitted": 98,
+   "troy_rate": 0.36029,
+   "athens_applied": 111,
+   "athens_admitted": 35,
+   "athens_rate": 0.31532,
+   "tsd_applied": 383,
+   "tsd_admitted": 133,
+   "tsd_rate": 0.34726,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 51,
+      "admitted": 18,
+      "rate": 0.35294
+     },
+     "LSA": {
+      "applied": 172,
+      "admitted": 62,
+      "rate": 0.36047
+     },
+     "ROSS": {
+      "applied": 29,
+      "admitted": 11,
+      "rate": 0.37931
+     },
+     "OTHER": {
+      "applied": 20,
+      "admitted": 7,
+      "rate": 0.35
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 31,
+      "admitted": 12,
+      "rate": 0.3871
+     },
+     "LSA": {
+      "applied": 54,
+      "admitted": 16,
+      "rate": 0.2963
+     },
+     "ROSS": {
+      "applied": 11,
+      "admitted": 2,
+      "rate": 0.18182
+     },
+     "OTHER": {
+      "applied": 15,
+      "admitted": 5,
+      "rate": 0.33333
+     }
+    }
+   },
+   "um_applied": 98310,
+   "um_admitted": 15373,
+   "um_rate": 0.15637,
+   "um_act_25": 31,
+   "um_act_75": 34,
+   "um_sat_25": 1360,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 92.8,
+   "um_avg_gpa": 3.9,
+   "tuition_in_state": 18896,
+   "tuition_out_state": 67096,
+   "home_value_troy": 456027,
+   "home_value_by_zip": {
+    "48085": 448004,
+    "48083": 349384,
+    "48098": 562786,
+    "48084": 463933
+   },
+   "state_appropriation": 356600000,
+   "endowment": 19200000000,
+   "institutional_scholarships": null,
+   "cpi": 313.6888,
+   "cpi_factor_to_2025": 1.02631,
+   "state_appropriation_real": 365983337,
+   "tuition_in_state_real": 19393,
+   "home_value_troy_real": 468027,
+   "endowment_real": 19705216125,
+   "idx": {
+    "home_value": 149.9,
+    "home_value_real": 90.2,
+    "tuition": 230.4,
+    "tuition_real": 138.7,
+    "state_appropriation_real": 68.9,
+    "endowment_real": 269.9,
+    "scholarships_real": null,
+    "tsd_admitted": 93.0,
+    "tsd_applied": 192.5,
+    "tsd_rate": 48.3,
+    "um_applied": 461.7
+   },
+   "four_year_tuition": 75584,
+   "degree_as_pct_of_home": 16.6
+  },
+  {
+   "year": 2025,
+   "troy_applied": 292,
+   "troy_admitted": 118,
+   "troy_rate": 0.40411,
+   "athens_applied": 112,
+   "athens_admitted": 38,
+   "athens_rate": 0.33929,
+   "tsd_applied": 404,
+   "tsd_admitted": 156,
+   "tsd_rate": 0.38614,
+   "colleges": {
+    "Troy": {
+     "ENG": {
+      "applied": 79,
+      "admitted": 42,
+      "rate": 0.53165
+     },
+     "LSA": {
+      "applied": 172,
+      "admitted": 62,
+      "rate": 0.36047
+     },
+     "ROSS": {
+      "applied": 20,
+      "admitted": 7,
+      "rate": 0.35
+     },
+     "OTHER": {
+      "applied": 21,
+      "admitted": 7,
+      "rate": 0.33333
+     }
+    },
+    "Athens": {
+     "ENG": {
+      "applied": 24,
+      "admitted": 8,
+      "rate": 0.33333
+     },
+     "LSA": {
+      "applied": 65,
+      "admitted": 24,
+      "rate": 0.36923
+     },
+     "ROSS": {
+      "applied": 11,
+      "admitted": 3,
+      "rate": 0.27273
+     },
+     "OTHER": {
+      "applied": 12,
+      "admitted": 3,
+      "rate": 0.25
+     }
+    }
+   },
+   "um_applied": 109112,
+   "um_admitted": 17915,
+   "um_rate": 0.16419,
+   "um_act_25": 32,
+   "um_act_75": 34,
+   "um_sat_25": 1370,
+   "um_sat_75": 1530,
+   "um_gpa_375_plus": 93.9,
+   "um_avg_gpa": 3.9,
+   "tuition_in_state": 20082,
+   "tuition_out_state": 69447,
+   "home_value_troy": 475748,
+   "home_value_by_zip": {
+    "48085": 467476,
+    "48083": 362981,
+    "48098": 586788,
+    "48084": 485749
+   },
+   "state_appropriation": 365500000,
+   "endowment": 21200000000,
+   "institutional_scholarships": null,
+   "cpi": 321.943,
+   "cpi_factor_to_2025": 1.0,
+   "state_appropriation_real": 365500000,
+   "tuition_in_state_real": 20082,
+   "home_value_troy_real": 475748,
+   "endowment_real": 21200000000,
+   "idx": {
+    "home_value": 156.4,
+    "home_value_real": 91.7,
+    "tuition": 244.9,
+    "tuition_real": 143.7,
+    "state_appropriation_real": 68.8,
+    "endowment_real": 290.4,
+    "scholarships_real": null,
+    "tsd_admitted": 109.1,
+    "tsd_applied": 203.0,
+    "tsd_rate": 53.7,
+    "um_applied": 512.4
+   },
+   "four_year_tuition": 80328,
+   "degree_as_pct_of_home": 16.9
+  }
+ ],
+ "shortfall": [
+  {
+   "year": 2004,
+   "at_2004_odds": 143.0,
+   "actual": 143,
+   "gap": -0.0,
+   "cumulative_gap": -0.0
+  },
+  {
+   "year": 2005,
+   "at_2004_odds": 175.3,
+   "actual": 183,
+   "gap": -7.7,
+   "cumulative_gap": -7.7
+  },
+  {
+   "year": 2006,
+   "at_2004_odds": 184.0,
+   "actual": 155,
+   "gap": 29.0,
+   "cumulative_gap": 21.3
+  },
+  {
+   "year": 2007,
+   "at_2004_odds": 205.5,
+   "actual": 189,
+   "gap": 16.5,
+   "cumulative_gap": 37.8
+  },
+  {
+   "year": 2008,
+   "at_2004_odds": 178.2,
+   "actual": 148,
+   "gap": 30.2,
+   "cumulative_gap": 68.0
+  },
+  {
+   "year": 2009,
+   "at_2004_odds": 218.5,
+   "actual": 208,
+   "gap": 10.5,
+   "cumulative_gap": 78.5
+  },
+  {
+   "year": 2010,
+   "at_2004_odds": 202.6,
+   "actual": 213,
+   "gap": -10.4,
+   "cumulative_gap": 68.1
+  },
+  {
+   "year": 2011,
+   "at_2004_odds": 186.1,
+   "actual": 154,
+   "gap": 32.1,
+   "cumulative_gap": 100.2
+  },
+  {
+   "year": 2012,
+   "at_2004_odds": 169.6,
+   "actual": 136,
+   "gap": 33.6,
+   "cumulative_gap": 133.8
+  },
+  {
+   "year": 2013,
+   "at_2004_odds": 176.1,
+   "actual": 151,
+   "gap": 25.1,
+   "cumulative_gap": 158.9
+  },
+  {
+   "year": 2014,
+   "at_2004_odds": 166.0,
+   "actual": 117,
+   "gap": 49.0,
+   "cumulative_gap": 207.9
+  },
+  {
+   "year": 2015,
+   "at_2004_odds": 217.7,
+   "actual": 165,
+   "gap": 52.7,
+   "cumulative_gap": 260.6
+  },
+  {
+   "year": 2016,
+   "at_2004_odds": 209.1,
+   "actual": 134,
+   "gap": 75.1,
+   "cumulative_gap": 335.7
+  },
+  {
+   "year": 2017,
+   "at_2004_odds": 214.9,
+   "actual": 175,
+   "gap": 39.9,
+   "cumulative_gap": 375.6
+  },
+  {
+   "year": 2018,
+   "at_2004_odds": 204.8,
+   "actual": 139,
+   "gap": 65.8,
+   "cumulative_gap": 441.4
+  },
+  {
+   "year": 2019,
+   "at_2004_odds": 211.3,
+   "actual": 134,
+   "gap": 77.3,
+   "cumulative_gap": 518.6
+  },
+  {
+   "year": 2020,
+   "at_2004_odds": 222.0,
+   "actual": 153,
+   "gap": 69.0,
+   "cumulative_gap": 587.7
+  },
+  {
+   "year": 2021,
+   "at_2004_odds": 253.7,
+   "actual": 156,
+   "gap": 97.7,
+   "cumulative_gap": 685.3
+  },
+  {
+   "year": 2022,
+   "at_2004_odds": 269.5,
+   "actual": 142,
+   "gap": 127.5,
+   "cumulative_gap": 812.8
+  },
+  {
+   "year": 2023,
+   "at_2004_odds": 278.1,
+   "actual": 159,
+   "gap": 119.1,
+   "cumulative_gap": 931.9
+  },
+  {
+   "year": 2024,
+   "at_2004_odds": 275.2,
+   "actual": 133,
+   "gap": 142.2,
+   "cumulative_gap": 1074.1
+  },
+  {
+   "year": 2025,
+   "at_2004_odds": 290.3,
+   "actual": 156,
+   "gap": 134.3,
+   "cumulative_gap": 1208.4
+  }
+ ],
+ "housing_by_zip": {
+  "48085": {
+   "area": "North Troy (NE)",
+   "city": "Troy",
+   "county": "Oakland County",
+   "annual": {
+    "2000": 250838,
+    "2001": 266632,
+    "2002": 279748,
+    "2003": 288884,
+    "2004": 293971,
+    "2005": 301257,
+    "2006": 298030,
+    "2007": 273175,
+    "2008": 243880,
+    "2009": 215376,
+    "2010": 199707,
+    "2011": 198275,
+    "2012": 206788,
+    "2013": 230700,
+    "2014": 256072,
+    "2015": 270181,
+    "2016": 279699,
+    "2017": 295196,
+    "2018": 311442,
+    "2019": 323195,
+    "2020": 331776,
+    "2021": 372935,
+    "2022": 409964,
+    "2023": 418316,
+    "2024": 448004,
+    "2025": 467476,
+    "2026": 477227
+   }
+  },
+  "48083": {
+   "area": "Southeast Troy",
+   "city": "Troy",
+   "county": "Oakland County",
+   "annual": {
+    "2000": 203598,
+    "2001": 216663,
+    "2002": 224623,
+    "2003": 231754,
+    "2004": 237572,
+    "2005": 241018,
+    "2006": 240564,
+    "2007": 225041,
+    "2008": 202217,
+    "2009": 171237,
+    "2010": 156480,
+    "2011": 151439,
+    "2012": 150566,
+    "2013": 170347,
+    "2014": 191989,
+    "2015": 201927,
+    "2016": 213280,
+    "2017": 227216,
+    "2018": 242488,
+    "2019": 256928,
+    "2020": 262854,
+    "2021": 294127,
+    "2022": 322166,
+    "2023": 327078,
+    "2024": 349384,
+    "2025": 362981,
+    "2026": 370226
+   }
+  },
+  "48098": {
+   "area": "North Troy (NW)",
+   "city": "Troy",
+   "county": "Oakland County",
+   "annual": {
+    "2000": 325681,
+    "2001": 348459,
+    "2002": 361544,
+    "2003": 370841,
+    "2004": 381687,
+    "2005": 389349,
+    "2006": 384393,
+    "2007": 354873,
+    "2008": 316845,
+    "2009": 271952,
+    "2010": 255279,
+    "2011": 258962,
+    "2012": 271034,
+    "2013": 305735,
+    "2014": 342736,
+    "2015": 357247,
+    "2016": 365026,
+    "2017": 377831,
+    "2018": 394212,
+    "2019": 406490,
+    "2020": 411004,
+    "2021": 456317,
+    "2022": 507073,
+    "2023": 525298,
+    "2024": 562786,
+    "2025": 586788,
+    "2026": 601149
+   }
+  },
+  "48084": {
+   "area": "West/Central Troy",
+   "city": "Troy",
+   "county": "Oakland County",
+   "annual": {
+    "2000": 251461,
+    "2001": 270559,
+    "2002": 282808,
+    "2003": 291764,
+    "2004": 303849,
+    "2005": 311781,
+    "2006": 307424,
+    "2007": 284277,
+    "2008": 250853,
+    "2009": 213007,
+    "2010": 194129,
+    "2011": 196517,
+    "2012": 208767,
+    "2013": 241295,
+    "2014": 275860,
+    "2015": 291430,
+    "2016": 303222,
+    "2017": 319975,
+    "2018": 335999,
+    "2019": 348086,
+    "2020": 357623,
+    "2021": 395174,
+    "2022": 428744,
+    "2023": 435351,
+    "2024": 463933,
+    "2025": 485749,
+    "2026": 500210
+   }
+  }
+ },
+ "college_key": {
+  "ENG": "College of Engineering",
+  "LSA": "College of Literature, Science, and the Arts",
+  "ROSS": "Stephen M. Ross School of Business (preferred admission; itemized 2017+)",
+  "OTHER": "All other U-M schools and colleges (derived: total minus itemized)"
+ }
+}

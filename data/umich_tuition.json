@@ -1,0 +1,85 @@
+{
+  "source": "IPEDS academic-year tuition & required fees, full-time undergraduate, UNITID 170976 (via Urban Institute Education Data Portal)",
+  "years": {
+    "2004": {
+      "in_state": 8201,
+      "out_state": 26027
+    },
+    "2005": {
+      "in_state": 9213,
+      "out_state": 27601
+    },
+    "2006": {
+      "in_state": 9723,
+      "out_state": 29131
+    },
+    "2007": {
+      "in_state": 10447,
+      "out_state": 29131
+    },
+    "2008": {
+      "in_state": 11037,
+      "out_state": 33069
+    },
+    "2009": {
+      "in_state": 11659,
+      "out_state": 34937
+    },
+    "2010": {
+      "in_state": 11837,
+      "out_state": 36001
+    },
+    "2011": {
+      "in_state": 13437,
+      "out_state": 39109
+    },
+    "2012": {
+      "in_state": 13819,
+      "out_state": 40496
+    },
+    "2013": {
+      "in_state": 13977,
+      "out_state": 41811
+    },
+    "2014": {
+      "in_state": 14336,
+      "out_state": 43377
+    },
+    "2015": {
+      "in_state": 14729,
+      "out_state": 45002
+    },
+    "2016": {
+      "in_state": 15310,
+      "out_state": 47004
+    },
+    "2017": {
+      "in_state": 15761,
+      "out_state": 49142
+    },
+    "2018": {
+      "in_state": 16225,
+      "out_state": 51082
+    },
+    "2019": {
+      "in_state": 16540,
+      "out_state": 52997
+    },
+    "2020": {
+      "in_state": 16948,
+      "out_state": 54097
+    },
+    "2021": {
+      "in_state": 17193,
+      "out_state": 55097
+    },
+    "2022": {
+      "in_state": 17786,
+      "out_state": 57273
+    },
+    "2023": {
+      "in_state": 18309,
+      "out_state": 60107
+    }
+  }
+}
