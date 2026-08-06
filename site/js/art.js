@@ -4,8 +4,9 @@
    These are original stylised drawings, not reproductions of anyone's logo or
    photograph: the two high schools are drawn as generic buildings wearing the
    colours sampled from their own athletics marks, and the three campus panels
-   are geometric impressions of Angell Hall's colonnade, the Lurie Tower with
-   Maya Lin's Wave Field, and the Ross atrium.
+   are geometric impressions of Burton Memorial Tower beside Rackham on
+   Central Campus, the Lurie Tower with Maya Lin's Wave Field on North
+   Campus, and the Ross atrium.
    ========================================================================== */
 (function (global) {
   'use strict';
@@ -13,7 +14,8 @@
   const UM = {
     maize: '#FFCB05', blue: '#00274C',
     arboretum: '#2F65A7', taubman: '#00B2A9', wavefield: '#A5A508',
-    rossOrange: '#D86018', ash: '#989C97', stone: '#655A52', tan: '#CFC096'
+    rossOrange: '#D86018', rackhamGreen: '#75988D',
+    ash: '#989C97', stone: '#655A52', tan: '#CFC096'
   };
   const SCHOOL = {
     troy: { silver: '#CFD0D2', black: '#000000' },
@@ -95,42 +97,97 @@
     return svg(`0 0 ${W} ${H}`, inner, 'role="img" aria-label="Troy High and Athens applications and admissions in ' + rec.year + '"');
   }
 
-  /* ============================================= LSA — Angell Hall / Diag = */
+  /* ================================ LSA — Burton Tower & Rackham (Central) = */
+  /* Burton Memorial Tower (Albert Kahn, 1936) and the Rackham Building face
+     each other across Fletcher Street: a very tall, very narrow limestone
+     shaft against a long, low, horizontal block. That contrast is the whole
+     composition. Rackham is drawn in U-M's own "Rackham Green".
+     (The other carillon, Lurie Tower, is on North Campus and appears in the
+     Engineering panel.) */
   function lsa() {
-    const cols = [];
-    for (let i = 0; i < 8; i++) {
-      const x = 96 + i * 44;
-      cols.push(`
-        <rect x="${x}" y="96" width="26" height="118" fill="${UM.tan}" opacity="0.20"/>
-        <rect x="${x}" y="96" width="26" height="118" fill="none" stroke="${UM.arboretum}" stroke-width="1.2"/>
-        <rect x="${x - 4}" y="90" width="34" height="8" fill="${UM.arboretum}" opacity="0.55"/>
-        <rect x="${x - 4}" y="214" width="34" height="8" fill="${UM.arboretum}" opacity="0.55"/>
-        ${[0, 1, 2, 3, 4].map(f => `<line x1="${x + 6 + f * 4}" y1="100" x2="${x + 6 + f * 4}" y2="210"
-             stroke="${UM.arboretum}" stroke-width="0.7" opacity="0.4"/>`).join('')}`);
-    }
+    const TAN = UM.tan, BLUE = UM.arboretum, GREEN = UM.rackhamGreen;
+    const GROUND = 262;
+
+    // ---- Burton Memorial Tower: slender shaft, clock, louvred belfry ------
+    const TX = 214, TW = 62, TTOP = 26;           // tower centre-left, in the sky
+    const tower = `
+      <g>
+        <!-- stepped crown -->
+        <rect x="${TX - TW / 2 - 7}" y="${TTOP}" width="${TW + 14}" height="9" fill="${TAN}" opacity="0.30"/>
+        <rect x="${TX - TW / 2 - 7}" y="${TTOP}" width="${TW + 14}" height="9" fill="none" stroke="${BLUE}" stroke-width="1.3"/>
+        <rect x="${TX - TW / 2 - 3}" y="${TTOP + 9}" width="${TW + 6}" height="7" fill="${BLUE}" opacity="0.45"/>
+        <!-- shaft -->
+        <rect x="${TX - TW / 2}" y="${TTOP + 16}" width="${TW}" height="${GROUND - TTOP - 16}" fill="${TAN}" opacity="0.20"/>
+        <rect x="${TX - TW / 2}" y="${TTOP + 16}" width="${TW}" height="${GROUND - TTOP - 16}" fill="none" stroke="${BLUE}" stroke-width="1.5"/>
+        <!-- belfry louvres -->
+        ${[0, 1, 2].map(i => `
+          <rect x="${TX - 21 + i * 15}" y="${TTOP + 24}" width="10" height="34" fill="${BLUE}" opacity="0.42"/>
+          ${[0, 1, 2, 3, 4].map(j => `<line x1="${TX - 21 + i * 15}" y1="${TTOP + 29 + j * 7}"
+                x2="${TX - 11 + i * 15}" y2="${TTOP + 29 + j * 7}" stroke="${TAN}" stroke-width="1" opacity="0.55"/>`).join('')}`).join('')}
+        <!-- clock face -->
+        <circle cx="${TX}" cy="${TTOP + 84}" r="17" fill="#02182c" opacity="0.55"/>
+        <circle cx="${TX}" cy="${TTOP + 84}" r="17" fill="none" stroke="${UM.maize}" stroke-width="2"/>
+        ${[0, 3, 6, 9].map(h => {
+          const a = (h / 12) * Math.PI * 2 - Math.PI / 2;
+          return `<line x1="${(TX + Math.cos(a) * 12).toFixed(1)}" y1="${(TTOP + 84 + Math.sin(a) * 12).toFixed(1)}"
+                        x2="${(TX + Math.cos(a) * 15.5).toFixed(1)}" y2="${(TTOP + 84 + Math.sin(a) * 15.5).toFixed(1)}"
+                        stroke="${UM.maize}" stroke-width="1.6" opacity="0.85"/>`;
+        }).join('')}
+        <line x1="${TX}" y1="${TTOP + 84}" x2="${TX}" y2="${TTOP + 73}" stroke="${UM.maize}" stroke-width="2.2"/>
+        <line x1="${TX}" y1="${TTOP + 84}" x2="${TX + 8}" y2="${TTOP + 89}" stroke="${UM.maize}" stroke-width="2.2"/>
+        <!-- vertical fluting down the shaft -->
+        ${[-20, -10, 0, 10, 20].map(o => `<line x1="${TX + o}" y1="${TTOP + 112}" x2="${TX + o}" y2="${GROUND - 4}"
+             stroke="${BLUE}" stroke-width="0.9" opacity="0.42"/>`).join('')}
+        <!-- base -->
+        <rect x="${TX - TW / 2 - 5}" y="${GROUND - 16}" width="${TW + 10}" height="16" fill="${TAN}" opacity="0.24"/>
+        <rect x="${TX - TW / 2 - 5}" y="${GROUND - 16}" width="${TW + 10}" height="16" fill="none" stroke="${BLUE}" stroke-width="1.2"/>
+      </g>`;
+
+    // ---- Rackham: long, low, symmetrical, green roofline -------------------
+    const RX = 330, RW = 424, RTOP = 150;
+    const bay = (x, w, top) => `
+      <rect x="${x}" y="${top}" width="${w}" height="${GROUND - top}" fill="${TAN}" opacity="0.17"/>
+      <rect x="${x}" y="${top}" width="${w}" height="${GROUND - top}" fill="none" stroke="${GREEN}" stroke-width="1.3"/>`;
+    const windows = (x0, n, top, h) => Array.from({ length: n }, (_, i) =>
+      `<rect x="${x0 + i * 17}" y="${top}" width="9" height="${h}" fill="${GREEN}" opacity="0.42"/>`).join('');
+
+    const rackham = `
+      <g>
+        ${bay(RX, RW, RTOP + 22)}
+        <!-- taller centre block -->
+        ${bay(RX + RW / 2 - 84, 168, RTOP)}
+        <!-- green parapet bands -->
+        <rect x="${RX - 6}" y="${RTOP + 14}" width="${RW + 12}" height="9" fill="${GREEN}" opacity="0.62"/>
+        <rect x="${RX + RW / 2 - 92}" y="${RTOP - 8}" width="184" height="9" fill="${GREEN}" opacity="0.72"/>
+        <!-- tall narrow windows, the building's signature rhythm -->
+        ${windows(RX + 16, 7, RTOP + 40, 64)}
+        ${windows(RX + RW / 2 - 68, 8, RTOP + 18, 88)}
+        ${windows(RX + RW - 134, 7, RTOP + 40, 64)}
+        <!-- bronze entrance -->
+        <rect x="${RX + RW / 2 - 24}" y="${GROUND - 46}" width="48" height="46" fill="${UM.maize}" opacity="0.55"/>
+        <rect x="${RX + RW / 2 - 24}" y="${GROUND - 46}" width="48" height="46" fill="none" stroke="${GREEN}" stroke-width="1.3"/>
+        <line x1="${RX + RW / 2}" y1="${GROUND - 46}" x2="${RX + RW / 2}" y2="${GROUND}" stroke="${GREEN}" stroke-width="1.2" opacity="0.7"/>
+        <!-- entrance steps -->
+        ${[0, 1, 2].map(i => `<rect x="${RX + RW / 2 - 38 - i * 7}" y="${GROUND + i * 4}" width="${76 + i * 14}" height="4"
+             fill="${TAN}" opacity="${0.3 - i * 0.06}"/>`).join('')}
+      </g>`;
+
     const inner = `
-      <rect width="800" height="330" fill="none"/>
-      <!-- sky wash -->
-      <rect width="800" height="330" fill="${UM.arboretum}" opacity="0.05"/>
-      <!-- pediment -->
-      <path d="M72 90 L400 26 L728 90 Z" fill="${UM.tan}" opacity="0.16"/>
-      <path d="M72 90 L400 26 L728 90 Z" fill="none" stroke="${UM.arboretum}" stroke-width="1.6"/>
-      <circle cx="400" cy="70" r="12" fill="none" stroke="${UM.maize}" stroke-width="1.6"/>
-      ${cols.join('')}
-      <rect x="60" y="222" width="680" height="12" fill="${UM.arboretum}" opacity="0.4"/>
-      <rect x="40" y="234" width="720" height="8" fill="${UM.arboretum}" opacity="0.22"/>
-      <!-- the Diag: diagonal paths meeting at the block M -->
-      <g opacity="0.6">
-        <line x1="0" y1="330" x2="360" y2="250" stroke="${UM.ash}" stroke-width="8" opacity="0.28"/>
-        <line x1="800" y1="330" x2="440" y2="250" stroke="${UM.ash}" stroke-width="8" opacity="0.28"/>
-        <line x1="400" y1="330" x2="400" y2="250" stroke="${UM.ash}" stroke-width="8" opacity="0.28"/>
+      <rect width="800" height="330" fill="${BLUE}" opacity="0.05"/>
+      ${rackham}
+      ${tower}
+      <!-- Fletcher Street between them, and the ground plane -->
+      <rect x="0" y="${GROUND}" width="800" height="7" fill="${BLUE}" opacity="0.38"/>
+      <rect x="0" y="${GROUND + 7}" width="800" height="5" fill="${BLUE}" opacity="0.18"/>
+      <g opacity="0.5">
+        ${[40, 120, 700, 770].map(x => `
+          <line x1="${x}" y1="${GROUND}" x2="${x}" y2="${GROUND - 30}" stroke="${GREEN}" stroke-width="2"/>
+          <circle cx="${x}" cy="${GROUND - 42}" r="15" fill="${GREEN}" opacity="0.30"/>`).join('')}
       </g>
-      <g transform="translate(372,282) scale(0.30)">
-        <path d="M4 6h34l22 46 22-46h34v88H92V38L66 94h-12L28 38v56H4z" fill="${UM.maize}" opacity="0.9"/>
-      </g>
-      <text x="30" y="316" fill="${UM.arboretum}" font-size="12" letter-spacing="2.6" font-weight="700"
-            font-family="-apple-system,Segoe UI,Roboto,sans-serif">CENTRAL CAMPUS · THE DIAG</text>`;
-    return svg('0 0 800 330', inner, 'role="img" aria-label="Stylised Angell Hall colonnade above the Diag, with the block M set in the pavement"');
+      <text x="30" y="316" fill="${BLUE}" font-size="12" letter-spacing="2.6" font-weight="700"
+            font-family="-apple-system,Segoe UI,Roboto,sans-serif">CENTRAL CAMPUS · BURTON TOWER &amp; RACKHAM</text>`;
+    return svg('0 0 800 330', inner,
+      'role="img" aria-label="Stylised Burton Memorial Tower standing beside the long, low Rackham Building on Central Campus"');
   }
 
   /* ================================ Engineering — Lurie Tower + Wave Field */
@@ -174,39 +231,103 @@
     return svg('0 0 800 330', inner, 'role="img" aria-label="Stylised Lurie Tower on North Campus above the undulating berms of the Wave Field"');
   }
 
-  /* ======================================================= Ross — the cube */
+  /* ============================== Ross — the Winter Garden curtain wall ==== */
+  /* The recognisable thing about Ross is not a box: it is the six-storey
+     glazed Winter Garden, where you can read the stacked floor plates and
+     their balcony fronts straight through the curtain wall, with the floors
+     stopping short of a full-height void in the centre. Limestone piers hold
+     each end, Blau Hall steps down to the right, and the way in is one small
+     lit door under a deep canopy. */
   function ross() {
-    let grid = '';
-    for (let r = 0; r < 6; r++) {
-      for (let c = 0; c < 12; c++) {
-        const lit = (r * 7 + c * 3) % 5 === 0;
-        grid += `<rect x="${250 + c * 26}" y="${86 + r * 24}" width="22" height="20"
-                   fill="${UM.rossOrange}" opacity="${lit ? 0.55 : 0.13}"/>`;
-      }
+    const O = UM.rossOrange, STONE = UM.stone, GLASS = '#02182c';
+    const GROUND = 268;
+    const GX = 196, GW = 396, GTOP = 54;          // glazed volume
+    const VOID_X = GX + GW / 2 - 52, VOID_W = 104; // the full-height atrium void
+
+    // floor plates read through the glass, interrupted by the void
+    const FLOORS = 6, fh = (GROUND - 34 - GTOP) / FLOORS;
+    let plates = '';
+    for (let i = 1; i <= FLOORS; i++) {
+      const y = GTOP + i * fh;
+      // left run, then right run — the gap is the Winter Garden
+      [[GX + 6, VOID_X - GX - 6], [VOID_X + VOID_W, GX + GW - VOID_X - VOID_W - 6]]
+        .forEach(([x, w]) => {
+          plates += `<rect x="${x.toFixed(1)}" y="${(y - 5).toFixed(1)}" width="${w.toFixed(1)}" height="5"
+                       fill="${O}" opacity="0.50"/>
+                     <rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}" height="${(fh - 9).toFixed(1)}"
+                       fill="${O}" opacity="${(0.05 + (i % 3) * 0.035).toFixed(3)}"/>`;
+        });
     }
+
+    // vertical mullions across the whole curtain wall
+    const mullions = Array.from({ length: Math.round(GW / 26) - 1 }, (_, i) =>
+      `<line x1="${GX + (i + 1) * 26}" y1="${GTOP}" x2="${GX + (i + 1) * 26}" y2="${GROUND - 34}"
+             stroke="${O}" stroke-width="0.9" opacity="0.32"/>`).join('');
+
+    // people-scale marks on the balcony fronts, so the height reads
+    let figures = '';
+    for (let i = 0; i < 16; i++) {
+      const fl = 1 + (i % FLOORS);
+      const y = GTOP + fl * fh - 5;
+      const left = i % 2 === 0;
+      const x = left ? GX + 18 + ((i * 37) % (VOID_X - GX - 40))
+                     : VOID_X + VOID_W + 12 + ((i * 53) % (GX + GW - VOID_X - VOID_W - 34));
+      figures += `<rect x="${x.toFixed(1)}" y="${(y - 6).toFixed(1)}" width="1.8" height="6"
+                    fill="#ffcb05" opacity="0.50"/>`;
+    }
+
     const inner = `
-      <rect width="800" height="330" fill="${UM.rossOrange}" opacity="0.045"/>
-      <!-- stone flanks -->
-      <rect x="120" y="110" width="122" height="128" fill="${UM.stone}" opacity="0.3"/>
-      <rect x="120" y="110" width="122" height="128" fill="none" stroke="${UM.rossOrange}" stroke-width="1.2"/>
-      <rect x="566" y="110" width="122" height="128" fill="${UM.stone}" opacity="0.3"/>
-      <rect x="566" y="110" width="122" height="128" fill="none" stroke="${UM.rossOrange}" stroke-width="1.2"/>
-      <!-- glass atrium -->
-      <rect x="246" y="82" width="316" height="156" fill="#02182c" opacity="0.75"/>
-      ${grid}
-      <rect x="246" y="82" width="316" height="156" fill="none" stroke="${UM.rossOrange}" stroke-width="1.8"/>
-      <line x1="404" y1="82" x2="404" y2="238" stroke="${UM.rossOrange}" stroke-width="1.2" opacity="0.6"/>
-      <rect x="236" y="70" width="336" height="14" fill="${UM.rossOrange}" opacity="0.5"/>
+      <rect width="800" height="330" fill="${O}" opacity="0.045"/>
+
+      <!-- limestone pier, left -->
+      <rect x="112" y="${GTOP + 26}" width="80" height="${GROUND - GTOP - 26}" fill="${STONE}" opacity="0.34"/>
+      <rect x="112" y="${GTOP + 26}" width="80" height="${GROUND - GTOP - 26}" fill="none" stroke="${O}" stroke-width="1.2"/>
+      ${[0, 1, 2, 3].map(i => `<rect x="128" y="${GTOP + 48 + i * 40}" width="48" height="22"
+           fill="${GLASS}" opacity="0.5"/>`).join('')}
+
+      <!-- Blau Hall, stepping down to the right -->
+      <rect x="596" y="${GTOP + 62}" width="96" height="${GROUND - GTOP - 62}" fill="${STONE}" opacity="0.30"/>
+      <rect x="596" y="${GTOP + 62}" width="96" height="${GROUND - GTOP - 62}" fill="none" stroke="${O}" stroke-width="1.2"/>
+      ${[0, 1, 2].map(i => `<rect x="610" y="${GTOP + 82 + i * 42}" width="68" height="24"
+           fill="${GLASS}" opacity="0.5"/>`).join('')}
+
+      <!-- the glazed Winter Garden -->
+      <rect x="${GX}" y="${GTOP}" width="${GW}" height="${GROUND - 34 - GTOP}" fill="${GLASS}" opacity="0.82"/>
+      ${plates}
+      <!-- the void: brighter, uninterrupted, full height -->
+      <linearGradient id="rossvoid" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="${UM.maize}" stop-opacity="0.20"/>
+        <stop offset="1" stop-color="${O}" stop-opacity="0.10"/>
+      </linearGradient>
+      <rect x="${VOID_X}" y="${GTOP + 8}" width="${VOID_W}" height="${GROUND - 42 - GTOP}"
+            fill="url(#rossvoid)"/>
+      <line x1="${VOID_X}" y1="${GTOP}" x2="${VOID_X}" y2="${GROUND - 34}" stroke="${O}" stroke-width="1.5" opacity="0.75"/>
+      <line x1="${VOID_X + VOID_W}" y1="${GTOP}" x2="${VOID_X + VOID_W}" y2="${GROUND - 34}" stroke="${O}" stroke-width="1.5" opacity="0.75"/>
+      ${mullions}
+      ${figures}
+      <rect x="${GX}" y="${GTOP}" width="${GW}" height="${GROUND - 34 - GTOP}" fill="none" stroke="${O}" stroke-width="1.8"/>
+
+      <!-- cornice -->
+      <rect x="${GX - 12}" y="${GTOP - 13}" width="${GW + 24}" height="13" fill="${O}" opacity="0.55"/>
+      <rect x="${GX - 12}" y="${GTOP - 13}" width="${GW + 24}" height="13" fill="none" stroke="${O}" stroke-width="1"/>
+
+      <!-- deep entrance canopy, and one small lit door -->
+      <rect x="${VOID_X - 34}" y="${GROUND - 34}" width="${VOID_W + 68}" height="9" fill="${O}" opacity="0.62"/>
+      <rect x="${VOID_X + VOID_W / 2 - 21}" y="${GROUND - 25}" width="42" height="25" fill="${UM.maize}" opacity="0.9"/>
+      <line x1="${VOID_X + VOID_W / 2}" y1="${GROUND - 25}" x2="${VOID_X + VOID_W / 2}" y2="${GROUND}"
+            stroke="${GLASS}" stroke-width="1.4" opacity="0.6"/>
+
       <!-- plaza -->
-      <rect x="60" y="238" width="680" height="7" fill="${UM.rossOrange}" opacity="0.35"/>
-      <g opacity="0.5">
-        ${[0, 1, 2, 3, 4, 5].map(i => `<rect x="${180 + i * 90}" y="252" width="54" height="3" fill="${UM.ash}"/>`).join('')}
+      <rect x="0" y="${GROUND}" width="800" height="7" fill="${O}" opacity="0.38"/>
+      <rect x="0" y="${GROUND + 7}" width="800" height="5" fill="${O}" opacity="0.16"/>
+      <g opacity="0.45">
+        ${[0, 1, 2, 3, 4].map(i => `<rect x="${120 + i * 130}" y="${GROUND + 16}" width="62" height="3" fill="${UM.ash}"/>`).join('')}
       </g>
-      <!-- the narrow door -->
-      <rect x="386" y="200" width="36" height="38" fill="${UM.maize}" opacity="0.85"/>
-      <text x="30" y="316" fill="${UM.rossOrange}" font-size="12" letter-spacing="2.6" font-weight="700"
+
+      <text x="30" y="316" fill="${O}" font-size="12" letter-spacing="2.6" font-weight="700"
             font-family="-apple-system,Segoe UI,Roboto,sans-serif">ROSS SCHOOL OF BUSINESS · PREFERRED ADMISSION</text>`;
-    return svg('0 0 800 330', inner, 'role="img" aria-label="Stylised glass atrium of the Ross School of Business with a single narrow lit doorway"');
+    return svg('0 0 800 330', inner,
+      'role="img" aria-label="Stylised Ross School of Business: six storeys of floor plates read through a glass curtain wall around a full-height atrium void, entered by a single small lit door"');
   }
 
   /* ================================================== hero field animation */
